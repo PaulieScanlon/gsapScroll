@@ -6,7 +6,7 @@
 
 # GSAP ScrollTrigger Experiment
 
-Last updated: June 25, 2022
+Last updated: June 26, 2022
 
 This is project under construction to test the latest GSAP ScrollTrigger functionality. Here are some resources we're working with:
 
@@ -18,14 +18,11 @@ This is project under construction to test the latest GSAP ScrollTrigger functio
 
 ## 1. This project is based on our Gatsby Tailwind Starter:
 
-```
-git clone https://github.com/sparker888/gsapScroll.git
-cd my-project
-```
+[Gatsby Tailwind Starter by Gravital Digital](https://github.com/sparker888/gsapScroll.git)
 
 ## 2. TBD
 
-continue...
+to be continued...
 
 ## Thanks for your interest! You can follow me on Twitter at [@sparker888](https://www.twitter.com/sparker888).
 
