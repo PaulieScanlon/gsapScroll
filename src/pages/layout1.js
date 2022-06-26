@@ -6,9 +6,11 @@ import Hero from "../components/hero"
 const Layout1 = () => {
   return (
     <Layout>
-      <div class="w-8xl mx-auto">
-        <Hero />
-      </div>
+      <>
+        <div className="bg-black">
+          <Hero />
+        </div>
+      </>
     </Layout>
   )
 }
