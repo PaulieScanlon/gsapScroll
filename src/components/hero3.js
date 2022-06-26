@@ -12,7 +12,7 @@ export default function Hero3() {
         <div className="absolute inset-0">
           <img
             className="h-598 w-full object-cover"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656214904/macbookpro_fexkdx.jpg"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656277924/macbookprowarped_s5tdhb.jpg"
             alt="People working on laptops"
           />
         </div>

@@ -8,7 +8,7 @@ const Layout1 = () => {
     <Layout>
       <>
         <div className="bg-black">
-          <Hero />
+          <Hero className="z-index-2" />
         </div>
       </>
     </Layout>
