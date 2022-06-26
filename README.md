@@ -10,7 +10,7 @@ Last updated: June 25, 2022
 
 This is project under construction to test the latest GSAP ScrollTrigger functionality.
 
-[GreenSock ScrollTrigger Docs] (https://greensock.com/docs/v3/Plugins/ScrollTrigger)
+[GreenSock ScrollTrigger Docs](https://greensock.com/docs/v3/Plugins/ScrollTrigger)
 
 ## 1. This project is based on our Gatsby Tailwind Starter:
 
