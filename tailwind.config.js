@@ -3,6 +3,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    maxWidth: {
+      'max-w-8xl': 'max-width: 84rem',
+    },
     extend: {
       fontFamily: {
         'sans': ["'Interstate Condensed'", "Arial", "sans-serif"],
@@ -14,3 +17,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+
