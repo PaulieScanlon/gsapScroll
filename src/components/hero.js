@@ -18,7 +18,7 @@ export default function Hero3() {
         </div>
         <div className="relative px-4 sm:px-6 sm:py-36 lg:py-48 lg:px-8">
           <h1 className="pt-48 text-center text-4xl font-extrabold tracking-tight sm:pt-16 sm:text-4xl md:pt-28 lg:pt-36 lg:text-6xl xl:pt-48 2xl:pt-60">
-            <span className="block bg-gradient-to-br from-purple-500 to-red-900 bg-clip-text pb-12 text-9xl font-extrabold tracking-tight text-transparent">
+            <span className="block bg-gradient-to-br from-purple-400 to-red-500 bg-clip-text pb-12 text-9xl font-black tracking-tight text-transparent">
               Blazing Fast!
             </span>
           </h1>
