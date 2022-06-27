@@ -16,7 +16,7 @@ export default function Hero3() {
             alt="People working on laptops"
           />
         </div>
-        <div className="relative px-4 py-40 sm:px-6 sm:py-36 lg:py-48 lg:px-8">
+        <div className="relative px-4 pt-40 sm:px-6 sm:pt-36 lg:px-8 lg:pt-48">
           <h1 className="pt-6 text-center sm:pt-16 md:pt-28 lg:pt-36 xl:pt-48 2xl:pt-60">
             <span className="block bg-gradient-to-br from-purple-700 to-red-700 bg-clip-text pb-2 text-5xl font-black tracking-tight text-transparent sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
               Blazing Fast!
@@ -34,7 +34,7 @@ export default function Hero3() {
           <h3 className="mx-4 mt-6 text-center font-body text-xl italic text-slate-200 sm:mx-12 sm:text-2xl md:mx-16 lg:text-3xl xl:mx-24 2xl:mx-36">
             Whether you have a content marketing website or a full eCommerce
             app, Gravital Digital can help you realize faster load times that
-            crush SEO and serve the best user experience with JamStack
+            crush SEO and serve the best user experience with proven JamStack
             technology.
           </h3>
           {/* <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">

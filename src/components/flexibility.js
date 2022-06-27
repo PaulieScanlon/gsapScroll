@@ -12,19 +12,19 @@ export default function Hero3() {
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
           <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">
             <span className="block pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-8xl">
-              Speed.
+              Flexibility.
             </span>
           </h1>
         </div>
         <div class="px-8 py-8">
           <div class="grid items-start justify-center gap-8">
             <div class="group relative">
-              <div class="animate-tilt group-hover:duration-50 absolute -inset-4 rounded-lg bg-gradient-to-r from-pink-600 to-sky-600 opacity-75 blur transition duration-1000 group-hover:opacity-100"></div>
+              <div class="animate-tilt group-hover:duration-50 absolute -inset-4 rounded-lg bg-gradient-to-r from-amber-600 to-purple-600 opacity-75 blur transition duration-1000 group-hover:opacity-100"></div>
               <div class="relative flex items-center divide-x divide-gray-600 rounded-lg bg-black leading-none">
                 <span class="flex items-center space-x-5">
                   <img
-                    className="h-240 mx-auto"
-                    src="https://res.cloudinary.com/gravital-digital/image/upload/v1656296469/speed-final-240_tkkamc.jpg"
+                    className="h-300 mx-auto"
+                    src="https://res.cloudinary.com/gravital-digital/image/upload/v1656296874/flexibility-final-240_qqeskq.jpg"
                     alt="People working on laptops"
                   />
                 </span>
@@ -35,10 +35,10 @@ export default function Hero3() {
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
           <h3 className="mx-4 mt-6 text-center font-body text-xl italic text-slate-200 sm:mx-12 sm:text-2xl md:mx-16 lg:text-3xl xl:mx-24 2xl:mx-36">
-            Modern JamStack web development provides us with a new architecture
-            to take your website to sub-three-second load times for the highest
-            Google rankings, smoother-loading interfaces, and silky smooth
-            loading of media assets.
+            We provide editors direct access to publish content or update
+            product data, with the most flexible solution available. JamStack
+            architecture provides access to a wide range of content tools. We
+            even extend legacy technology such as Drupal and WordPress.
           </h3>
           {/* <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
