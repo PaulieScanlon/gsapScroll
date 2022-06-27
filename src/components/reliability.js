@@ -34,7 +34,7 @@ export default function Hero3() {
         </div>
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
-          <h3 className="mx-4 mt-6 text-center font-body text-xl italic text-slate-200 sm:mx-12 sm:text-2xl md:mx-16 lg:text-3xl xl:mx-24 2xl:mx-36">
+          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl">
             Our JamStack websites and apps provide a stress-free solution for
             businesses that rely on high uptime, tight security yet affordable
             edge hosting on worldwide CDNs to deliver your customers only the

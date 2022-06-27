@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Hero from "../components/hero"
+import Potential from "../components/potential"
 import Speed from "../components/speed"
 import Flexibility from "../components/flexibility"
 import Reliability from "../components/reliability"
@@ -12,6 +13,7 @@ const Layout1 = () => {
       <>
         <div className="bg-black">
           <Hero className="z-index-2" />
+          <Potential />
           <Speed />
           <Flexibility />
           <Reliability />
