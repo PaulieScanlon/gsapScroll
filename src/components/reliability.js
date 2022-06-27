@@ -19,7 +19,7 @@ export default function Hero3() {
         <div class="px-8 py-8">
           <div class="grid items-start justify-center gap-8">
             <div class="group relative">
-              <div class="animate-tilt group-hover:duration-50 absolute -inset-4 rounded-lg bg-gradient-to-r from-pink-600 to-purple-600 opacity-75 blur transition duration-1000 group-hover:opacity-100"></div>
+              <div class="animate-tilt group-hover:duration-50 absolute -inset-4 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 opacity-75 blur transition duration-1000 group-hover:opacity-100"></div>
               <div class="relative flex items-center divide-x divide-gray-600 rounded-lg bg-black leading-none">
                 <span class="flex items-center space-x-5">
                   <img
