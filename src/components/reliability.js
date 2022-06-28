@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 export default function Hero3() {
   return (
-    <div className="z-index-0 container relative mx-auto bg-black py-12 px-6 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
+    <div className="container relative mx-auto bg-black px-6 pt-12 pb-48 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
           <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">
@@ -36,9 +36,9 @@ export default function Hero3() {
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
           <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl">
             Our JamStack websites and apps provide a stress-free solution for
-            businesses that rely on high uptime, tight security yet affordable
-            edge hosting on worldwide CDNs to deliver your customers only the
-            latest published content.
+            businesses that rely on high uptime, tight security yet require
+            affordable edge hosting on worldwide CDNs to deliver customers only
+            the latest published content.
           </h3>
           {/* <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
