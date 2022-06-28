@@ -6,6 +6,7 @@ import Potential from "../components/potential"
 import Speed from "../components/speed"
 import Flexibility from "../components/flexibility"
 import Reliability from "../components/reliability"
+import Webuild from "../components/webuild"
 import Migrate from "../components/migrate"
 import Benefits from "../components/benefits"
 import Grid2left1right from "../components/grid2left1right"
@@ -23,7 +24,7 @@ const Layout1 = () => {
           <Speed />
           <Flexibility />
           <Reliability />
-          <Migrate />
+          <Webuild />
           <Full1left2right />
           <Conversions />
           <Migrate />

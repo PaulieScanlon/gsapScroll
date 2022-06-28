@@ -60,14 +60,14 @@ export default function Conversions() {
                         alt="Pan Macmillan Logo"
                       />
                     </div>
-                    <h3 className="font-regular text-medium mb-5 uppercase tracking-tighter text-slate-50 sm:text-2xl md:text-2xl lg:text-3xl">
+                    <h3 className="text-regular mb-5 font-mono uppercase tracking-tighter text-slate-400 sm:text-2xl md:text-2xl lg:text-3xl">
                       Pan Macmillan: +25%
                     </h3>
-                    <h3 className="font-regular text-medium uppercase tracking-tight text-slate-50 sm:text-2xl md:text-2xl lg:text-3xl">
+                    <h3 className="text-regular font-mono uppercase tracking-tight text-slate-400 sm:text-2xl md:text-2xl lg:text-3xl">
                       Sennheiser: +137%
                     </h3>
                   </div>
-                  <div className="sm:mt-15 mt-10 lg:mt-20">
+                  <div className="sm:mt-15 ml-5 mt-10 lg:ml-0 lg:mt-20">
                     <img
                       className="h-12"
                       src="https://res.cloudinary.com/gravital-digital/image/upload/v1656382519/sennheiser-3-white_es4caj.svg"
