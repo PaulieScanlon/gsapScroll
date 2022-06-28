@@ -53,23 +53,31 @@ export default function Conversions() {
               <div className="grid grid-cols-1">
                 <div className="flex justify-start md:justify-around">
                   <div className="grid grid-cols-1">
-                    <h2 className="sm:my-15 my-10 text-2xl font-black text-slate-50 md:text-3xl lg:my-20 lg:text-4xl xl:text-5xl">
-                      Pan Macmillan
-                    </h2>
-                    <h3 className="font-regular text-medium mb-5 tracking-tighter text-slate-400 sm:text-2xl md:text-2xl lg:text-3xl">
+                    <div className="sm:my-15 my-10 lg:my-20">
+                      <img
+                        className="h-12"
+                        src="https://res.cloudinary.com/gravital-digital/image/upload/v1656384845/small-pan-macmillan-logo-white_yjljlc.svg"
+                        alt="Pan Macmillan Logo"
+                      />
+                    </div>
+                    <h3 className="font-regular text-medium mb-5 uppercase tracking-tighter text-slate-50 sm:text-2xl md:text-2xl lg:text-3xl">
                       Pan Macmillan: +25%
                     </h3>
-                    <h3 className="font-regular text-medium tracking-tight text-slate-400 sm:text-2xl md:text-2xl lg:text-3xl">
+                    <h3 className="font-regular text-medium uppercase tracking-tight text-slate-50 sm:text-2xl md:text-2xl lg:text-3xl">
                       Sennheiser: +137%
                     </h3>
                   </div>
-                  <h2 className="sm:mt-15 mt-10 text-2xl font-black text-slate-50 md:text-3xl lg:mt-20 lg:text-4xl xl:text-5xl">
-                    Sennheiser
-                  </h2>
+                  <div className="sm:mt-15 mt-10 lg:mt-20">
+                    <img
+                      className="h-12"
+                      src="https://res.cloudinary.com/gravital-digital/image/upload/v1656382519/sennheiser-3-white_es4caj.svg"
+                      alt="Pan Macmillan Logo"
+                    />
+                  </div>
                 </div>
                 <img
                   className="h-950 inline"
-                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656372032/bar-chart_twraww.png"
+                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656385773/bar-chart-2_i1x6de.png"
                   alt="Bar Graph with rise from JamStack"
                 />
                 <p className="text-regular mx-auto mt-2 mb-5 text-slate-50">
