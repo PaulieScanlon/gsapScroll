@@ -36,19 +36,20 @@ export default function Hero3() {
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
           <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl">
-            We provide editors direct access to publish content or update
-            product data, with the most flexible solution available.{" "}
+            We provide marketers direct access to publish content and update
+            products with the most flexible solutions available.{" "}
             <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
               JamStack{" "}
             </span>
-            architecture provides access to a wide range of content tools. We
-            even extend legacy technology such as Drupal and WordPress.
+            architecture provides easy access to a wide range of microservices.
+            We build stacks and connect to major platforms like Drupal,
+            WordPress and Shopify.
           </h3>
           <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
               <a
                 href="#"
-                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 text-base font-bold text-purple-200 shadow-xl shadow-amber-700/30 transition-colors duration-300 hover:bg-amber-600 hover:text-slate-200 hover:shadow-amber-700/30 sm:px-8"
+                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 text-base font-bold text-purple-200 shadow-xl shadow-purple-700/30 transition-colors duration-300 hover:bg-amber-600 hover:text-slate-200 hover:shadow-amber-700/30 sm:px-8"
               >
                 <span className="mr-1">FLEXIBILITY</span>
                 <span>

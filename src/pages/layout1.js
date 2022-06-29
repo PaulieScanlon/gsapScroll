@@ -8,11 +8,19 @@ import Flexibility from "../components/flexibility"
 import Reliability from "../components/reliability"
 import Webuild from "../components/webuild"
 import Migrate from "../components/migrate"
-import Benefits from "../components/benefits"
+import Grid2Equal from "../components/grid2equal"
 import Grid2left1right from "../components/grid2left1right"
 import Grid1left2right from "../components/grid1left2right"
-import Full1left2right from "../components/full1left2right"
-import Conversions from "../components/conversion"
+import Speedtraffic from "../components/speedtraffic"
+import Speedconversions from "../components/speedconversions"
+import Servicesanywhere from "../components/servicesanywhere"
+import Contentanywhere from "../components/contentanywhere"
+import Perfectmarketers from "../components/perfectmarketers"
+import Zerodowntime from "../components/zerodowntime"
+import Zerozero from "../components/zerozero"
+import Zerocosts from "../components/zerocosts"
+import Supercharge from "../components/supercharge"
+import Contentsites from "../components/contentsites"
 
 const Layout1 = () => {
   return (
@@ -25,13 +33,18 @@ const Layout1 = () => {
           <Flexibility />
           <Reliability />
           <Webuild />
-          <Full1left2right />
-          <Conversions />
-          <Migrate />
-          <Benefits />
-          <Migrate />
+          <Speedtraffic />
+          <Speedconversions />
+          <Perfectmarketers />
+          <Servicesanywhere />
+          <Contentanywhere />
+          <Zerodowntime />
+          <Zerozero />
+          <Zerocosts />
+          <Supercharge />
+          <Contentsites />
+          <Grid2Equal />
           <Grid2left1right />
-          <Migrate />
           <Grid1left2right />
           <Migrate />
         </div>

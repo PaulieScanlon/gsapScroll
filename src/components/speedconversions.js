@@ -80,7 +80,7 @@ export default function Conversions() {
                   src="https://res.cloudinary.com/gravital-digital/image/upload/v1656385773/bar-chart-2_i1x6de.png"
                   alt="Bar Graph with rise from JamStack"
                 />
-                <p className="text-regular mx-auto mt-2 mb-5 text-slate-50">
+                <p className="sm:text-regular mx-auto mt-2 mb-5 text-sm text-slate-50">
                   Source: Netlify "Quantifying the Value of Modern Web
                   Development" slides (May '22). Over a 4 week period and 30M
                   sessions, Google & Deloitte analyzed mobile site data and
