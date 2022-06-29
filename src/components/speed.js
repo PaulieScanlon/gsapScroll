@@ -49,11 +49,11 @@ export default function Hero3() {
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
               <a
                 href="#"
-                className="group flex items-center justify-center rounded-full border border-transparent bg-sky-500 px-4 py-3 text-base font-bold text-sky-200 shadow-xl shadow-sky-700/30 transition-colors duration-300 hover:bg-pink-500 hover:text-slate-200 hover:shadow-red-700/30 sm:px-8"
+                className="group flex items-center justify-center rounded-full border border-transparent bg-sky-500 px-4 py-3 text-base font-bold text-sky-200 shadow-xl shadow-sky-700/30 transition duration-700 hover:bg-pink-500 hover:text-slate-200 hover:shadow-red-700/30 sm:px-8"
               >
                 <span className="mr-1">SPEED</span>
                 <span>
-                  <ArrowCircleDownIcon className="mb-1 h-5 w-5 group-hover:animate-bounce" />
+                  <ArrowCircleDownIcon className="mb-1 h-5 w-5 group-hover:animate-bounce group-hover:text-sky-50" />
                 </span>
               </a>
             </div>
