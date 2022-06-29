@@ -2,7 +2,7 @@ import * as React from "react"
 
 export default function Example() {
   return (
-    <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1655819450/faded-sun_1500x750px_f95cpq.jpg')]">
+    <div className="max-w-xl container mx-auto mt-24 mb-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1655819450/faded-sun_1500x750px_f95cpq.jpg')]">
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
         <div className="col-span-1 lg:col-span-2">
           <div className="md:py-15 lg:pt-25 justify-around pt-0 pb-6 sm:flex md:flex-row">

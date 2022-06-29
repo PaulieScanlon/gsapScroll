@@ -10,7 +10,7 @@ const supportLinks = [
   {
     name: "Rachio 400x300",
     href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656474116/youfit_iabwiu.avif",
   },
   {
     name: "Rachio 450x300",
@@ -25,7 +25,7 @@ const supportLinks = [
 ]
 
 /* This example requires Tailwind CSS v2.0+ */
-export default function Contentsites() {
+export default function Servicesites() {
   return (
     <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
       <div className="max-w-md sm:max-w-3xl lg:max-w-7xl mx-auto px-4 pt-6 text-center sm:px-6 lg:px-8">
@@ -34,7 +34,7 @@ export default function Contentsites() {
             Gatsby Showcase
           </h2>
           <p className="lg:text6xl mt-2 font-serif text-4xl font-bold tracking-tight text-slate-50 sm:text-5xl">
-            Content Platforms
+            Service Platforms
           </p>
           <p className="max-w-prose mx-auto mt-5 px-20 text-xl text-slate-50 sm:px-40 md:px-60">
             Phasellus lorem quam molestie id quisque diam aenean nulla in.
@@ -45,8 +45,8 @@ export default function Contentsites() {
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-12">
           <img
             className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656462696/firefox_aipJchnuL2_exmy5n.png"
-            alt="National Geographic UK"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656474105/firefox_A8ZdeZHtO7_ylu9jw.jpg"
+            alt="YouFit"
           />
         </div>
       </div>

@@ -21,6 +21,12 @@ import Zerozero from "../components/zerozero"
 import Zerocosts from "../components/zerocosts"
 import Supercharge from "../components/supercharge"
 import Contentsites from "../components/contentsites"
+import Ecommsites from "../components/ecommsites"
+import Servicesites from "../components/servicesites"
+import Technologies from "../components/technologies"
+import Services from "../components/services"
+import Testimonials from "../components/testimonials"
+import Contact from "../components/contact"
 
 const Layout1 = () => {
   return (
@@ -43,10 +49,16 @@ const Layout1 = () => {
           <Zerocosts />
           <Supercharge />
           <Contentsites />
+          <Ecommsites />
+          <Servicesites />
+          <Migrate />
           <Grid2Equal />
           <Grid2left1right />
           <Grid1left2right />
-          <Migrate />
+          <Technologies />
+          <Services />
+          <Testimonials />
+          <Contact />
         </div>
       </>
     </Layout>

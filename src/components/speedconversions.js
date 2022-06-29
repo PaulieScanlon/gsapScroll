@@ -2,7 +2,7 @@ import * as React from "react"
 
 export default function Conversions() {
   return (
-    <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
+    <div className="max-w-xl container mx-auto mt-6 mb-24 rounded-3xl bg-slate-900">
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
         <div className="md:ml-15 md:col-span-1">
           <div className="justify-around pb-0 pt-6 sm:py-0 md:flex md:flex-row md:py-12">
