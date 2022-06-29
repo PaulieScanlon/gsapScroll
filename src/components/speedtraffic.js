@@ -8,17 +8,14 @@ export default function Benefits() {
           <div className="justify-around pb-0 pt-6 sm:py-0 md:flex md:flex-row md:py-12">
             <div className="sm:flex-shrink">
               <div className="flow-root">
-                <h1 className="mt-2 text-5xl font-black text-slate-50 sm:mt-12 sm:text-6xl md:mt-0 lg:mt-2 lg:text-7xl">
+                <h1 className="ml-6 mt-2 text-5xl font-black text-sky-600 sm:mt-12 sm:text-6xl md:mt-0 lg:mt-2 lg:text-7xl">
                   Speed:
                 </h1>
-                <h1 className="mt-5 text-4xl font-black text-amber-500 sm:mt-10 sm:text-5xl lg:mt-20 lg:text-6xl">
+                <h1 className="ml-6 mt-5 text-4xl font-black text-amber-500 sm:mt-10 sm:text-5xl lg:mt-20 lg:text-6xl">
                   10%
                 </h1>
-                <h2 className="mt-2 text-3xl font-bold text-slate-50 sm:text-4xl lg:text-5xl">
-                  increase in
-                </h2>
-                <h2 className="mt-2 text-3xl font-bold text-slate-50 sm:text-4xl lg:text-5xl">
-                  site traffic
+                <h2 className="ml-6 mt-2 text-3xl font-bold text-slate-50 sm:text-4xl lg:text-5xl">
+                  increase in site traffic
                 </h2>
               </div>
             </div>
@@ -31,18 +28,18 @@ export default function Benefits() {
               <div className="grid grid-cols-1">
                 <div className="flex justify-around">
                   <div className="grid grid-cols-1">
-                    <h2 className="mt-20 mb-20 text-3xl font-black text-slate-50 sm:text-5xl">
+                    <h2 className="mt-20 mb-20 text-2xl font-black text-slate-50 md:text-3xl xl:text-5xl">
                       Legacy Stack
                     </h2>
-                    <h3 className="text-regular mb-5 font-mono uppercase tracking-tighter text-slate-400 sm:text-2xl md:text-2xl lg:text-3xl">
+                    <h3 className="text-regular mb-5 font-mono uppercase tracking-tighter text-slate-400 md:text-2xl lg:text-3xl">
                       Mobile Lighthouse: +63
                     </h3>
-                    <h3 className="text-regular font-mono uppercase tracking-tight text-slate-400 sm:text-2xl md:text-2xl lg:text-3xl">
+                    <h3 className="text-regular font-mono uppercase tracking-tight text-slate-400 md:text-2xl lg:text-3xl">
                       Desktop Lighthouse: +35
                     </h3>
                   </div>
-                  <h2 className="mt-20 text-3xl font-black text-slate-50 sm:text-5xl">
-                    JamStack
+                  <h2 className="mt-20 mb-20 text-2xl font-black text-slate-50 md:text-3xl xl:text-5xl">
+                    vs. JamStack
                   </h2>
                 </div>
                 <img

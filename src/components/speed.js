@@ -6,7 +6,7 @@ import { ArrowCircleDownIcon } from "@heroicons/react/solid"
   /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
 }
 
-export default function Hero3() {
+export default function Speed() {
   return (
     <div className="z-index-0 container relative mx-auto bg-black py-12 px-6 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">

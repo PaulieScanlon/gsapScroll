@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = [
-  { name: "Layout 1", href: "/layout1/" },
-  { name: "Layout 2", href: "/layout2/" },
-  { name: "Layout 3", href: "/layout3/" },
-  { name: "Layout 4", href: "/layout4/" },
+  { name: "Speed", href: "/layout1/" },
+  { name: "Flexibility", href: "/layout2/" },
+  { name: "Reliability", href: "/layout3/" },
+  { name: "Services", href: "/layout4/" },
 ]
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
         <div className="flex w-full items-center justify-between border-b border-slate-700 py-3 lg:border-none">
           <div className="flex items-center">
             <a href="/">
-              <span className="sr-only">Gravital</span>
+              <span className="sr-only">Gravital Digital</span>
               <img
                 className="h-10 w-auto"
                 src="https://res.cloudinary.com/gravital-digital/image/upload/v1654201551/gravital-icon-transparent_gjk8o7.png"
@@ -35,18 +35,23 @@ export default function Header() {
               ))}
             </div>
           </div>
-          <div className="ml-10 space-x-4">
+          <div className="space-x-4">
+            <div className="inline-block">
+              <h2 className="ml-4 text-base font-bold uppercase tracking-wider text-sky-500">
+                GRAVITAL <span className="text-amber-500">DIGITAL</span>
+              </h2>
+            </div>
             <a
               href="#"
-              className="inline-block rounded-md border border-transparent bg-slate-500 py-2 px-4 text-base font-medium text-slate-50 hover:bg-slate-50 hover:text-amber-500"
+              className="sm:content hidden rounded-full border border-transparent bg-sky-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-sky-800 hover:text-slate-200 sm:inline-block"
             >
-              Sign in
+              Showcase
             </a>
             <a
               href="#"
-              className="inline-block rounded-md border border-transparent bg-slate-50 py-2 px-4 text-base font-medium text-slate-600 hover:bg-slate-500 hover:text-sky-400"
+              className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200"
             >
-              Sign up
+              Contact
             </a>
           </div>
         </div>
