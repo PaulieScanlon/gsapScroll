@@ -8,7 +8,7 @@ import { ArrowCircleDownIcon } from "@heroicons/react/solid"
 
 export default function Hero3() {
   return (
-    <div className="container relative mx-auto bg-black px-6 pt-12 pb-48 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
+    <div className="z-index-0 xlg:my-16 container relative mx-auto my-6 bg-black px-6 sm:my-10 sm:px-12 lg:my-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
           <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">

@@ -2,49 +2,34 @@ import * as React from "react"
 
 export default function Benefits() {
   return (
-    <div className="max-w-xl container mx-auto mb-24 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1655821187/mesh-gradient-green-brown-cropped_eu9n4k.jpg')]">
-      <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
-        <div className="md:ml-15 md:col-span-1">
-          <div className="justify-around pb-0 pt-6 sm:py-0 md:flex md:flex-row md:py-12">
-            <div className="sm:flex-shrink">
-              <div className="grid grid-cols-1">
-                <div className="flex justify-start">
-                  <div className="grid grid-cols-1">
-                    <h1 className="mt-2 text-4xl font-black text-purple-600 sm:mt-12 sm:text-5xl md:mt-0 lg:mt-2 lg:text-6xl">
-                      Flexibility:
-                    </h1>
-                    <h1 className="mt-5 text-4xl font-black text-amber-500 sm:mt-10 sm:text-5xl lg:mt-20 lg:text-6xl">
-                      10%
-                    </h1>
-                    <h2 className="mt-2 text-3xl font-bold text-slate-50 sm:text-4xl lg:text-5xl">
-                      increase
-                    </h2>
-                    <h2 className="mt-2 text-3xl font-bold text-slate-50 sm:text-4xl lg:text-5xl">
-                      in traffic
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className="max-w-xl container mx-auto mb-24 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656950328/mesh-gradient_ml0g9s.png')]">
+      <div className="grid grid-cols-1 gap-x-6 py-12 md:grid-cols-1 md:py-16 lg:grid-cols-3 lg:gap-x-8 lg:py-20 lg:pl-8 xl:grid-cols-3">
+        <div className="grid-row-2 min-h-full auto-rows-min justify-self-start px-8 md:col-span-1 lg:py-24 2xl:py-40">
+          <h1 className="xlg:text-7xl mb-5 justify-self-end text-4xl font-black text-white md:justify-self-end md:text-5xl lg:text-6xl">
+            Flexibility.
+          </h1>
+          <p className="mr-15 text-base font-medium text-white md:text-lg">
+            If you've been involved with building complex web projects, you
+            understand how hard it can be to choose the right platforms and
+            technologies for the task. Now, with{" "}
+            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
+              Jamstack
+            </span>
+            , you can have a website with a clear separation of services. The
+            front end and backend are decoupled and we use ARPs to run
+            server-side processes. You can pick what you need when you need it.
+          </p>
         </div>
 
-        <div className="col-span-1 lg:col-span-2">
-          <div className="md:py-15 lg:pt-25 justify-around pt-0 pb-6 sm:flex md:flex-row">
+        <div className="grid-row-2 col-span-1 lg:col-span-2">
+          <div className="justify-around sm:flex md:flex-row lg:pt-12">
             <div className="sm:flex-shrink">
               <div className="grid grid-cols-1">
-                <h2 className="mt-2 text-5xl">
-                  For Content and Media Companies
-                </h2>
                 <img
                   className="h-950 inline"
-                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656372032/bar-chart_twraww.png"
-                  alt="Bar Graph with rise from JamStack"
+                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656951155/content-logos-331x670_tflqmw.png"
+                  alt="CMS logos with Jamstack"
                 />
-                <p className="text-regular mx-auto mt-2 mb-5 text-slate-50">
-                  Source: Netlify "Quantifying the Value of Modern Web
-                  Development" slides (May '22).
-                </p>
               </div>
             </div>
           </div>
