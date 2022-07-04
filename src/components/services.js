@@ -33,7 +33,10 @@ const supportLinks = [
 
 export default function Services() {
   return (
-    <div className="mt-1000 bg-gravital-darker-blue" id="services">
+    <div
+      className="max-w-xl mt-1000 bg-gravital-darker-blue container mx-auto"
+      id="services"
+    >
       {/* Header */}
       <div className="relative bg-gray-800 pb-32">
         <div className="absolute inset-0">
@@ -89,7 +92,9 @@ export default function Services() {
                     aria-hidden="true"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-50">{link.name}</h3>
+                <h3 className="text-2xl font-bold text-slate-50">
+                  {link.name}
+                </h3>
                 <p className="mt-4 text-base text-sky-200">
                   {link.description}
                 </p>

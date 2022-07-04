@@ -4,8 +4,8 @@ import { MailIcon, PhoneIcon } from "@heroicons/react/outline"
 export default function Contact() {
   return (
     <div className="bg-slate-800" id="contact">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <div className="relative bg-slate-800 shadow-xl">
+      <div className="max-w-xl container mx-auto rounded-3xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div className="relative rounded-3xl bg-slate-700 shadow-xl">
           <h2 className="sr-only">Contact us</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
