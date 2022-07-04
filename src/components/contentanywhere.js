@@ -3,7 +3,7 @@ import * as React from "react"
 export default function Benefits() {
   return (
     <div className="max-w-xl container mx-auto mb-24 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656950328/mesh-gradient_ml0g9s.png')]">
-      <div className="grid grid-cols-1 gap-x-6 py-12 md:grid-cols-1 md:py-16 lg:grid-cols-3 lg:gap-x-8 lg:py-20 lg:pl-8 xl:grid-cols-3">
+      <div className="grid grid-cols-1 gap-x-6 py-12 sm:py-16 md:grid-cols-1 md:py-16 lg:grid-cols-3 lg:gap-x-8 lg:pl-16 xl:grid-cols-3">
         <div className="grid-row-2 min-h-full auto-rows-min justify-self-start px-8 md:col-span-1 lg:py-24 2xl:py-40">
           <h1 className="xlg:text-7xl mb-5 justify-self-end text-4xl font-black text-white md:justify-self-end md:text-5xl lg:text-6xl">
             Flexibility.
