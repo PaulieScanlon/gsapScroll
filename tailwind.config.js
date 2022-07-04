@@ -12,6 +12,9 @@ module.exports = {
         'serif' : ["'FF Meta Serif Pro'", "serif"],
         'body': ["'Open Sans'", "sans-serif"],
         'mono' : ["'Base Mono Wide'", "monospace"]
+      },
+      height: {
+        '150': '38rem'
       }
     },
   },
