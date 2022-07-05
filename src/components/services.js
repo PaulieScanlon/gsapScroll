@@ -92,17 +92,17 @@ export default function Services() {
                     aria-hidden="true"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-50">
+                <h1 className="text-2xl font-black text-slate-900">
                   {link.name}
-                </h3>
-                <p className="mt-4 text-base text-sky-200">
+                </h1>
+                <h3 className="text-bold mt-4 text-slate-50">
                   {link.description}
-                </p>
+                </h3>
               </div>
-              <div className="rounded-bl-2xl rounded-br-2xl bg-gradient-to-r from-purple-900 via-amber-400 to-amber-600 p-6 text-right md:px-8">
+              <div className="group rounded-bl-2xl rounded-br-2xl bg-gradient-to-r from-purple-900 via-amber-400 to-amber-600 p-6 text-right md:px-8">
                 <AnchorLink
                   to={link.href}
-                  className="text-base font-bold text-sky-900 hover:text-slate-50"
+                  className="text-bold font-bold text-sky-900 group-hover:text-slate-50"
                 >
                   Learn more<span aria-hidden="true"> &rarr;</span>
                 </AnchorLink>

@@ -3,10 +3,7 @@ import React from "react"
 export default function Technologies() {
   return (
     <div className="bg-slate-900">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-white">
-          We work with key Web technologies.
-        </h2>
+      <div className="max-w-7xl container mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
             <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">

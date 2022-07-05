@@ -12,7 +12,10 @@ const navigation = [
 export default function Header() {
   return (
     <header className="relative top-0 bg-slate-900">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+      <nav
+        className="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8"
+        aria-label="Top"
+      >
         <div className="flex w-full items-center justify-between border-b border-slate-700 py-3 lg:border-none">
           <div className="flex items-center">
             <a href="/">

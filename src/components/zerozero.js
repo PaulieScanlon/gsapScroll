@@ -9,23 +9,14 @@ export default function Benefits() {
             <div className="block rounded-2xl rounded-tl-none border border-slate-400 bg-gradient-to-r from-sky-500 to-purple-400 text-center">
               <div className="flow-root">
                 <div class="rounded-xl-embed my-3 rounded-t-none py-8 px-12 md:shadow-red-500">
-                  <img
-                    className="inline h-10"
-                    src="https://res.cloudinary.com/gravital-digital/image/upload/v1654201551/gravital-icon-transparent_gjk8o7.png"
-                    alt="Gravital Digital Logo"
-                  />
-                  <h2 className="mt-2 text-2xl font-black text-slate-50">
+                  <h2 className="mt-2 mb-6 text-3xl font-black text-slate-50 lg:text-4xl xl:text-5xl 2xl:text-6xl">
                     Zero Hacks
                   </h2>
                   <span className="mt-2 text-xl text-slate-50">
-                    I'm baby four loko tattooed paleo celiac photo booth kitsch
-                    butcher. Try-hard swag shaman yuccie, tumblr tumeric fashion
-                    axe vinyl trust fund green juice prism skateboard mixtape.
-                    Put a bird on it blue bottle knausgaard gluten-free,
-                    chartreuse keffiyeh affogato health goth viral af PBR&B
-                    mlkshk yuccie cloud bread raclette. Quinoa chillwave hella
-                    biodiesel kale chips drinking vinegar pinterest sustainable
-                    photo booth keffiyeh truffaut blog.
+                    With server-side processes abstracted into microservice
+                    APIs, surface areas for attacks are reduced. You can also
+                    leverage the domain expertise of specialist third-party
+                    services.
                   </span>
                 </div>
               </div>
@@ -36,25 +27,16 @@ export default function Benefits() {
         <div className="justify-around pt-0 pb-6 sm:flex lg:py-6">
           <div className="sm:flex-shrink">
             <div className="flow-root">
-              <div className="block rounded-2xl rounded-tl-none border border-gray-400 bg-gradient-to-r from-sky-500 to-purple-400 text-center">
+              <div className="block rounded-2xl rounded-tl-none border border-gray-400 bg-gradient-to-r from-purple-400 to-sky-500 text-center">
                 <div class="rounded-xl-embed my-3 rounded-t-none py-8 px-12">
-                  <img
-                    className="inline h-10"
-                    src="https://res.cloudinary.com/gravital-digital/image/upload/v1654201551/gravital-icon-transparent_gjk8o7.png"
-                    alt="Gravital Digital Logo"
-                  />
-                  <h2 className="mt-2 text-2xl font-black text-slate-50">
+                  <h2 className="mt-2 mb-6 text-3xl font-black text-slate-50 lg:text-4xl xl:text-5xl 2xl:text-6xl">
                     Zero Downtime
                   </h2>
                   <span className="mt-2 text-xl text-slate-50">
-                    I'm baby four loko tattooed paleo celiac photo booth kitsch
-                    butcher. Try-hard swag shaman yuccie, tumblr tumeric fashion
-                    axe vinyl trust fund green juice prism skateboard mixtape.
-                    Put a bird on it blue bottle knausgaard gluten-free,
-                    chartreuse keffiyeh affogato health goth viral af PBR&B
-                    mlkshk yuccie cloud bread raclette. Quinoa chillwave hella
-                    biodiesel kale chips drinking vinegar pinterest sustainable
-                    photo booth keffiyeh truffaut blog.
+                    When deployment becomes a set of static files served
+                    anywhere, scaling is simply serving those files in more
+                    places. CDNs are perfect for this, typically with scaling
+                    in their plans and zero downtime.
                   </span>
                 </div>
               </div>

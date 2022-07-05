@@ -2,22 +2,22 @@ import * as React from "react"
 
 export default function Benefits() {
   return (
-    <div className="max-w-xl container mx-auto mb-24 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656950328/mesh-gradient_ml0g9s.png')]">
-      <div className="grid grid-cols-1 gap-x-6 py-12 sm:py-16 md:grid-cols-1 md:py-16 lg:grid-cols-3 lg:gap-x-8 lg:pl-16 xl:grid-cols-3">
-        <div className="grid-row-2 min-h-full auto-rows-min justify-self-start px-8 md:col-span-1 lg:py-24 2xl:py-40">
-          <h1 className="xlg:text-7xl mb-5 justify-self-end text-4xl font-black text-white md:justify-self-end md:text-5xl lg:text-6xl">
+    <div className="max-w-xl container mx-auto mb-6 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977286/blue-background-lt-left_vzcl5v.jpg')] bg-cover">
+      <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pl-16 xl:grid-cols-3">
+        <div className="grid-row-2 min-h-full auto-rows-min px-8 md:col-span-1 lg:py-24 2xl:py-40">
+          <h1 className="mb-5 justify-self-end text-4xl font-black text-white md:justify-self-end lg:text-5xl xl:text-6xl 2xl:text-7xl">
             Flexibility.
           </h1>
           <p className="mr-15 text-base font-medium text-white md:text-lg">
-            If you've been involved with building complex web projects, you
-            understand how hard it can be to choose the right platforms and
-            technologies for the task. Now, with{" "}
-            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-br from-purple-800 to-red-800 bg-clip-text text-transparent">
               Jamstack
-            </span>
-            , you can have a website with a clear separation of services. The
-            front end and backend are decoupled and we use ARPs to run
-            server-side processes. You can pick what you need when you need it.
+            </span>{" "}
+            sites are built for modern content development, decoupling content
+            from the rest of the framework, allowing content and data to be
+            cached and updated at the edge, giving you real-time updates from
+            your CMS. We can pull content from traditional CMSs like WordPress
+            or Drupal or you can choose to migrate to a modern headless solution
+            like Contentful.
           </p>
         </div>
 
@@ -26,8 +26,8 @@ export default function Benefits() {
             <div className="sm:flex-shrink">
               <div className="grid grid-cols-1">
                 <img
-                  className="h-950 inline"
-                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656951155/content-logos-331x670_tflqmw.png"
+                  className="h-950 inline h-max"
+                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656985313/content-logos-white-331x670_rlxblz.png"
                   alt="CMS logos with Jamstack"
                 />
               </div>

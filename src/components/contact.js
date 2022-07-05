@@ -3,14 +3,14 @@ import { MailIcon, PhoneIcon } from "@heroicons/react/outline"
 
 export default function Contact() {
   return (
-    <div className="bg-slate-800" id="contact">
+    <div className="bg-black" id="contact">
       <div className="max-w-xl container mx-auto rounded-3xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="relative rounded-3xl bg-slate-700 shadow-xl">
           <h2 className="sr-only">Contact us</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
-            <div className="bg-gravital-darker-blue relative overflow-hidden py-10 px-6 sm:px-10 xl:p-12">
+            <div className="relative overflow-hidden rounded-l-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] bg-cover py-10 px-6 sm:px-10 xl:p-12">
               <div
                 className="pointer-events-none absolute inset-0 sm:hidden"
                 aria-hidden="true"
@@ -55,7 +55,7 @@ export default function Contact() {
             </div>
 
             {/* Contact form */}
-            <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+            <div className="rounded-r-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] bg-cover py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <form
                 name="contact"
                 form
@@ -74,7 +74,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="block text-sm font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-500"
                   >
                     First name
                   </label>
@@ -91,7 +91,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="last-name"
-                    className="block text-sm font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-500"
                   >
                     Last name
                   </label>
@@ -108,7 +108,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="email"
-                    className="block text-sm font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-500"
                   >
                     Email
                   </label>
@@ -126,11 +126,14 @@ export default function Contact() {
                   <div className="flex justify-between">
                     <label
                       htmlFor="phone"
-                      className="block text-sm font-medium text-blue-500"
+                      className="text-medium block pl-2 font-medium text-blue-500"
                     >
                       Phone
                     </label>
-                    <span id="phone-optional" className="text-sm text-sky-200">
+                    <span
+                      id="phone-optional"
+                      className="text-medium pl-2 text-amber-200"
+                    >
                       Optional
                     </span>
                   </div>
@@ -148,7 +151,7 @@ export default function Contact() {
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="subject"
-                    className="block text-sm font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-500"
                   >
                     Subject
                   </label>
@@ -165,11 +168,14 @@ export default function Contact() {
                   <div className="flex justify-between">
                     <label
                       htmlFor="message"
-                      className="block text-sm font-medium text-blue-500"
+                      className="text-medium block pl-2 font-medium text-blue-500"
                     >
                       Message
                     </label>
-                    <span id="message-max" className="text-sm text-sky-200">
+                    <span
+                      id="message-max"
+                      className="text-medium pl-2 text-amber-200"
+                    >
                       Max. 500 characters
                     </span>
                   </div>
@@ -187,9 +193,9 @@ export default function Contact() {
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
-                    className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
+                    className="font-regular inline-block rounded-full border border-transparent bg-sky-800 py-2 px-4 font-serif text-xl text-amber-500 transition duration-500 hover:bg-amber-500 hover:text-sky-900 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
                   >
-                    SEND IT!
+                    Send Message
                   </button>
                 </div>
               </form>
