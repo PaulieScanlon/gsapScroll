@@ -4,7 +4,7 @@ export default function Testimonials() {
   return (
     <section className="bg-slate-700" id="clients">
       <div className="max-w-7xl container mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
-        <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:border-r md:border-sky-200 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
+        <div className="py-12 px-8 md:flex md:flex-col md:border-r md:border-sky-200 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
           <div className="md:flex-shrink-0">
             <img
               className="h-15"
@@ -50,7 +50,7 @@ export default function Testimonials() {
             </footer>
           </blockquote>
         </div>
-        <div className="border-t-2 border-amber-500 py-12 px-4 sm:px-6 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
+        <div className="border-t-2 border-amber-500 px-8 py-12 md:border-t-0 md:border-l md:py-16 md:pr-0 md:pl-10 lg:pl-16">
           <div className="mb-6 md:flex-shrink-0">
             <img
               className="h-15"

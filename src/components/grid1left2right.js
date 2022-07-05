@@ -3,13 +3,13 @@ import * as React from "react"
 export default function Benefits() {
   return (
     <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
-      <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
+      <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 xl:grid-cols-3">
         <div className="md:col-span-1">
           <div className="justify-around pb-0 pt-6 sm:flex sm:flex-row md:py-6">
             <div className="sm:flex-shrink">
               <div className="flow-root">
                 <div className=" block rounded-2xl rounded-tl-none border border-slate-400 bg-gradient-to-r from-sky-500 to-purple-400 text-center">
-                  <div class="rounded-xl-embed card-shadow my-3 rounded-t-none py-8 px-12">
+                  <div class="rounded-xl-embed card-shadow my-3 rounded-t-none py-8 px-6">
                     <img
                       className="inline h-10"
                       src="https://res.cloudinary.com/gravital-digital/image/upload/v1654201551/gravital-icon-transparent_gjk8o7.png"
@@ -41,7 +41,7 @@ export default function Benefits() {
             <div className="sm:flex-shrink">
               <div className="flow-root">
                 <div className="block rounded-2xl rounded-tl-none border border-gray-400 bg-gradient-to-r from-sky-500 to-purple-400 text-center">
-                  <div class="rounded-xl-embed card-shadow my-3 rounded-t-none py-8 px-12">
+                  <div class="rounded-xl-embed card-shadow my-3 rounded-t-none py-8 px-6">
                     <img
                       className="inline h-10"
                       src="https://res.cloudinary.com/gravital-digital/image/upload/v1654201551/gravital-icon-transparent_gjk8o7.png"
