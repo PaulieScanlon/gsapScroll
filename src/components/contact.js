@@ -74,7 +74,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="text-medium block pl-2 font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-200"
                   >
                     First name
                   </label>
@@ -91,7 +91,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="last-name"
-                    className="text-medium block pl-2 font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-200"
                   >
                     Last name
                   </label>
@@ -108,7 +108,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="email"
-                    className="text-medium block pl-2 font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-200"
                   >
                     Email
                   </label>
@@ -126,7 +126,7 @@ export default function Contact() {
                   <div className="flex justify-between">
                     <label
                       htmlFor="phone"
-                      className="text-medium block pl-2 font-medium text-blue-500"
+                      className="text-medium block pl-2 font-medium text-blue-200"
                     >
                       Phone
                     </label>
@@ -151,7 +151,7 @@ export default function Contact() {
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="subject"
-                    className="text-medium block pl-2 font-medium text-blue-500"
+                    className="text-medium block pl-2 font-medium text-blue-200"
                   >
                     Subject
                   </label>
@@ -168,7 +168,7 @@ export default function Contact() {
                   <div className="flex justify-between">
                     <label
                       htmlFor="message"
-                      className="text-medium block pl-2 font-medium text-blue-500"
+                      className="text-medium block pl-2 font-medium text-blue-200"
                     >
                       Message
                     </label>

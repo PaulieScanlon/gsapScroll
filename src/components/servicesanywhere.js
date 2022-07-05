@@ -19,10 +19,10 @@ export default function Example() {
         </div>
 
         <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 pt-0 md:col-span-1 lg:py-24">
-          <h1 className="mb-5 justify-self-end text-4xl font-black text-white md:justify-self-end lg:text-5xl xl:text-6xl 2xl:text-7xl">
+          <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end md:text-6xl xl:text-7xl 2xl:text-8xl">
             Flexibility.
           </h1>
-          <h3 className="mb-6 text-xl font-bold text-white lg:text-2xl">
+          <h3 className="mb-6 text-2xl font-bold text-white lg:text-3xl">
             Services from anywhere
           </h3>
           <p className="mr-15 text-base font-medium text-white md:text-lg">

@@ -8,7 +8,7 @@ export default function Conversions() {
           <div className="justify-around pb-0 pt-6 sm:px-6 md:flex md:flex-row md:py-12">
             <div className="sm:flex-shrink">
               <div className="flow-root">
-                <h1 className="mt-2 text-4xl font-black text-sky-50 sm:mt-12 md:mt-0 lg:mt-2 lg:text-5xl xl:text-6xl 2xl:text-7xl ">
+                <h1 className="mt-2 text-5xl font-black text-sky-50 sm:mt-12 md:mt-0 lg:mt-2 md:text-6xl xl:text-7xl 2xl:text-8xl ">
                   Speed.
                 </h1>
                 <h1 className="mt-5 text-4xl font-black text-amber-500 sm:mt-10 lg:mt-20 lg:text-5xl xl:text-6xl 2xl:text-7xl ">

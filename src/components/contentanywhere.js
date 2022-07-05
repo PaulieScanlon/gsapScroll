@@ -5,10 +5,10 @@ export default function Benefits() {
     <div className="max-w-xl container mx-auto mb-6 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977286/blue-background-lt-left_vzcl5v.jpg')] bg-cover">
       <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pl-16 xl:grid-cols-3">
         <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 md:col-span-1 py-12 lg:py-24">
-          <h1 className="mb-5 justify-self-end text-4xl font-black text-white md:justify-self-end lg:text-5xl xl:text-6xl 2xl:text-7xl">
+          <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end md:text-6xl xl:text-7xl 2xl:text-8xl">
             Flexibility.
           </h1>
-          <h3 className="mb-6 text-xl font-bold text-white lg:text-2xl">
+          <h3 className="mb-6 text-2xl font-bold text-white lg:text-3xl">
             Content from anywhere
           </h3>
           <p className="mr-15 text-base font-medium text-white md:text-lg">
