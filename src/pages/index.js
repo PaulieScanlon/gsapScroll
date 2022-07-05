@@ -8,7 +8,7 @@ import Footer from "../components/footer"
 const IndexPage = () => {
   return (
     <Layout>
-      <section className="text-center">
+      <section className="bg-white text-center">
         <div>
           <img
             className="mx-auto max-h-60 pt-12"

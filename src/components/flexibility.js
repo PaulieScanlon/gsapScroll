@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { ArrowCircleDownIcon } from "@heroicons/react/solid"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 {
   /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
@@ -12,7 +13,7 @@ export default function Hero3() {
       <div className="relative sm:overflow-hidden">
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
           <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">
-            <span className="block pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-8xl">
+            <span className="block pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 md:text-6xl lg:text-7xl">
               Flexibility.
             </span>
           </h1>
@@ -35,27 +36,27 @@ export default function Hero3() {
         </div>
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
-          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl">
-            We provide marketers direct access to publish content and update
-            products with the most flexible solutions available.{" "}
+          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
+            Give marketers direct access to preview and publish without the need
+            for a developer, and give developers easy access to a wide range of
+            microservices.{" "}
             <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
-              JamStack{" "}
+              JamStack's{" "}
             </span>
-            architecture provides easy access to a wide range of microservices.
-            We build stacks and connect to major platforms like Drupal,
-            WordPress and Shopify.
+            flexibility makes 'content & services from anywhere' possible.
           </h3>
           <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
-              <a
-                href="#"
+              <AnchorLink
+                to="./#flexibility"
+                title="Flexibility"
                 className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 text-base font-bold text-purple-200 shadow-xl shadow-purple-700/30 transition-colors duration-700 hover:bg-amber-600 hover:text-slate-200 hover:shadow-amber-700/30 sm:px-8"
               >
                 <span className="mr-1">FLEXIBILITY</span>
                 <span>
                   <ArrowCircleDownIcon className="mb-1 h-5 w-5 group-hover:animate-bounce group-hover:text-purple-50" />
                 </span>
-              </a>
+              </AnchorLink>
             </div>
           </div>
         </div>

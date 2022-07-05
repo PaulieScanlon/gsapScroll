@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import ScrollButton from "../components/scrollup"
 import Hero from "../components/hero"
 import Potential from "../components/potential"
 import Speed from "../components/speed"
@@ -34,6 +35,7 @@ const Layout1 = () => {
       <>
         <div className="max-w-xl bg-black">
           <Hero className="z-index-2" />
+          <ScrollButton />
           <Potential />
           <Speed />
           <Flexibility />

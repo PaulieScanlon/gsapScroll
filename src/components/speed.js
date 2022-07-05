@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { ArrowCircleDownIcon } from "@heroicons/react/solid"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 {
   /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
@@ -35,27 +36,26 @@ export default function Speed() {
         </div>
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
-          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl">
-            Modern{" "}
+          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
             <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
               JamStack{" "}
             </span>
-            web development provides us with a new architecture to take your
-            website to sub-three-second load times for the highest Google
-            rankings, smoother-loading interfaces, and silky smooth loading of
-            media assets.
+            gives us the tools needed to push site performance to sub-three-second load
+            times for the highest Google rankings and smoothest content & data loading
+            interfaces possible while hosted on the Edge throughout world.
           </h3>
           <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
-              <a
-                href="#"
+              <AnchorLink
+                to="./#speed"
+                title="Speed"
                 className="group flex items-center justify-center rounded-full border border-transparent bg-sky-500 px-4 py-3 text-base font-bold text-sky-200 shadow-xl shadow-sky-700/30 transition duration-700 hover:bg-pink-500 hover:text-slate-200 hover:shadow-red-700/30 sm:px-8"
               >
                 <span className="mr-1">SPEED</span>
                 <span>
                   <ArrowCircleDownIcon className="mb-1 h-5 w-5 group-hover:animate-bounce group-hover:text-sky-50" />
                 </span>
-              </a>
+              </AnchorLink>
             </div>
           </div>
         </div>

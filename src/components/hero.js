@@ -24,13 +24,13 @@ export default function Hero3() {
           </h1>
 
           <h3 className="mx-4 mt-6 text-center font-body text-xl font-bold leading-tight text-slate-200 sm:mx-12 sm:text-2xl md:mx-16 lg:text-3xl xl:mx-24 2xl:mx-36">
-            Whether you have a content marketing website or a full eCommerce
-            app, Gravital Digital can help you realize faster load times that
-            crush SEO and serve the best user experience with proven{" "}
+            Whether it's a content marketing website or a full eCommerce app,
+            Gravital builds sites with{" "}
             <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
               JamStack{" "}
             </span>
-            technology.
+            that deliver incredibly fast load times that crush SEO and provide
+            memorable user experiences.
           </h3>
           <h2 className="pt-12 text-center sm:pt-4 md:pt-6 lg:pt-6 xl:pt-8 2xl:pt-12">
             <span className="font-sans text-3xl font-bold tracking-tighter text-sky-600 md:text-4xl lg:text-4xl">

@@ -2,7 +2,10 @@ import * as React from "react"
 
 export default function Benefits() {
   return (
-    <div className="max-w-xl container mx-auto mt-24 mb-6 rounded-3xl bg-slate-900">
+    <div
+      id="reliability"
+      className="max-w-xl container mx-auto mt-24 mb-6 rounded-3xl bg-slate-900"
+    >
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-8">
         <div className=" justify-around pb-0 pt-6 sm:flex lg:py-6">
           <div className="sm:flex-shrink">

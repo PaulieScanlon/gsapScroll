@@ -27,7 +27,10 @@ const supportLinks = [
 /* This example requires Tailwind CSS v2.0+ */
 export default function Contentsites() {
   return (
-    <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
+    <div
+      className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900"
+      id="showcase"
+    >
       <div className="max-w-md sm:max-w-3xl lg:max-w-7xl mx-auto px-4 pt-6 text-center sm:px-6 lg:px-8">
         <div>
           <h2 className="font-regular my-6 text-base uppercase tracking-wider text-purple-500">

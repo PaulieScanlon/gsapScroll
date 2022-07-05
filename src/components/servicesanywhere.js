@@ -2,7 +2,10 @@ import * as React from "react"
 
 export default function Example() {
   return (
-    <div className="max-w-xl container mx-auto mb-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] bg-cover">
+    <div
+      id="flexibility"
+      className="max-w-xl container mx-auto mb-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] bg-cover"
+    >
       <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pr-16 xl:grid-cols-3">
         <div className="grid-row-2 col-span-1 lg:col-span-2">
           <div className="justify-around py-12 sm:flex md:flex-row lg:py-24">
@@ -10,7 +13,7 @@ export default function Example() {
               <div className="grid grid-cols-1">
                 <img
                   className="h-950 inline h-max"
-                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656987503/computer-logos-605x1071_aq9wg7.png"
+                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1657057807/computer-logos-605x1071_tm76kx.png"
                   alt="Cloud of Web Services around a MacBook Pro"
                 />
               </div>
@@ -19,7 +22,7 @@ export default function Example() {
         </div>
 
         <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 pt-0 md:col-span-1 lg:py-24">
-          <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end md:text-6xl xl:text-7xl 2xl:text-8xl">
+          <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end xl:text-6xl">
             Flexibility.
           </h1>
           <h3 className="mb-6 text-2xl font-bold text-sky-200 lg:text-3xl">

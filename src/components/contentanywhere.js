@@ -4,8 +4,8 @@ export default function Benefits() {
   return (
     <div className="max-w-xl container mx-auto mb-6 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977286/blue-background-lt-left_vzcl5v.jpg')] bg-cover">
       <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pl-16 xl:grid-cols-3">
-        <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 md:col-span-1 py-12 lg:py-24">
-          <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end md:text-6xl xl:text-7xl 2xl:text-8xl">
+        <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 py-12 md:col-span-1 lg:py-24">
+          <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end xl:text-6xl">
             Flexibility.
           </h1>
           <h3 className="mb-6 text-2xl font-bold text-sky-200 lg:text-3xl">
@@ -25,7 +25,7 @@ export default function Benefits() {
         </div>
 
         <div className="grid-row-2 col-span-1 lg:col-span-2">
-          <div className="justify-around sm:flex md:flex-row pt-0 lg:py-24">
+          <div className="justify-around pt-0 sm:flex md:flex-row lg:py-24">
             <div className="sm:flex-shrink">
               <div className="grid grid-cols-1">
                 <img
