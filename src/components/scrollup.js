@@ -11,7 +11,7 @@ export default function ScrollButton() {
       className="scroll-up"
     >
       <button className="group flex items-center justify-center rounded-full border border-transparent px-4 py-3">
-        <ArrowCircleUpIcon className="h-0 w-0 text-sky-500 group-hover:animate-bounce group-hover:text-purple-500 md:h-16 md:w-16" />
+        <ArrowCircleUpIcon className="h-0 w-0 text-sky-500 group-hover:animate-bounce group-hover:text-amber-500 md:h-16 md:w-16" />
       </button>
     </ScrollUp>
   )

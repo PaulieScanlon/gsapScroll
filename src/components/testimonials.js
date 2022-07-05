@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Testimonials() {
   return (
-    <section className="bg-slate-700" id="clients">
+    <section className="bg-slate-900" id="clients">
       <div className="max-w-7xl container mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
         <div className="py-12 px-8 md:flex md:flex-col md:border-r md:border-sky-200 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
           <div className="md:flex-shrink-0">
