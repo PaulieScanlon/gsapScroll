@@ -46,13 +46,13 @@ export default function Header() {
             </div>
             <a
               href="#"
-              className="sm:content hidden rounded-full border border-transparent bg-sky-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-sky-800 hover:text-slate-200 sm:inline-block"
+              className="sm:content hidden rounded-full border border-transparent bg-sky-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-sky-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
             >
               Showcase
             </a>
             <a
               href="#"
-              className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200"
+              className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
             >
               Contact
             </a>
