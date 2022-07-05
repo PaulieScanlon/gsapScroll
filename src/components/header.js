@@ -1,12 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = [
-  { name: "Speed", href: "/layout1/" },
-  { name: "Flexibility", href: "/layout2/" },
-  { name: "Reliability", href: "/layout3/" },
-  { name: "Services", href: "/layout4/" },
+  { name: "Speed", href: "/layout1/#speed" },
+  { name: "Flexibility", href: "/layout1/#flexibility" },
+  { name: "Reliability", href: "/layout1/#reliability" },
+  { name: "Services", href: "/layout1/#services" },
 ]
 
 export default function Header() {
@@ -28,13 +29,14 @@ export default function Header() {
             </a>
             <div className="ml-10 hidden space-x-8 lg:block">
               {navigation.map(link => (
-                <a
+                <AnchorLink
                   key={link.name}
-                  href={link.href}
+                  title={link.name}
+                  to={link.href}
                   className="text-base font-medium text-blue-400 hover:text-amber-500"
                 >
                   {link.name}
-                </a>
+                </AnchorLink>
               ))}
             </div>
           </div>
@@ -44,29 +46,32 @@ export default function Header() {
                 GRAVITAL <span className="text-amber-500">DIGITAL</span>
               </h2>
             </div>
-            <a
-              href="#"
+            <AnchorLink
+              to="/layout1/#showcase"
+              title="Showcase"
               className="sm:content hidden rounded-full border border-transparent bg-sky-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-sky-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
             >
               Showcase
-            </a>
-            <a
-              href="#"
+            </AnchorLink>
+            <AnchorLink
+              to="/layout1/#contact"
+              title="Contact"
               className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
             >
               Contact
-            </a>
+            </AnchorLink>
           </div>
         </div>
         <div className="flex flex-wrap justify-center space-x-6 py-4 lg:hidden">
           {navigation.map(link => (
-            <a
+            <AnchorLink
               key={link.name}
-              href={link.href}
+              title={link.name}
+              to={link.href}
               className="text-base font-medium text-blue-400 hover:bg-opacity-75 hover:text-amber-500"
             >
               {link.name}
-            </a>
+            </AnchorLink>
           ))}
         </div>
       </nav>

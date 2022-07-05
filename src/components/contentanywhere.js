@@ -8,7 +8,7 @@ export default function Benefits() {
           <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end md:text-6xl xl:text-7xl 2xl:text-8xl">
             Flexibility.
           </h1>
-          <h3 className="mb-6 text-2xl font-bold text-white lg:text-3xl">
+          <h3 className="mb-6 text-2xl font-bold text-sky-200 lg:text-3xl">
             Content from anywhere
           </h3>
           <p className="mr-15 text-base font-medium text-white md:text-lg">
