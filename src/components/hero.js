@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 export default function Hero3() {
   return (
-    <div className="container relative mx-auto bg-black px-6 pt-12 pb-24 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
+    <div className="container relative mx-auto px-6 pt-12 pb-24 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
         <div className="absolute inset-0">
           <img

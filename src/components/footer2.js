@@ -56,8 +56,8 @@ export default function Footer() {
         </div>
         <div className="flex justify-center text-base text-sky-500 md:order-3">
           <p>
-            <a className="text-amber-500 hover:text-sky-500" href="/">
-              Tailwindcss Styles
+            <a className="text-amber-500 hover:text-sky-500" href="https://www.tailwindcss.com/">
+              Tailwindcss Styles Resources
             </a>
           </p>
         </div>
