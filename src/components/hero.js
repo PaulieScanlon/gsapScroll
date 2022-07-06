@@ -12,8 +12,8 @@ export default function Hero3() {
         <div className="absolute inset-0">
           <img
             className="h-598 w-full object-cover"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656442641/warp2_o0jo3w.jpg"
-            alt="People working on laptops"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657075321/hero_macbook_apple_large_final_nyuhwd.jpg"
+            alt="Blazing Speed coming from a Macbook Pro"
           />
         </div>
         <div className="relative px-4 pt-40 sm:px-6 sm:pt-36 lg:px-8 lg:pt-48">
