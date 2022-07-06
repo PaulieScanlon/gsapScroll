@@ -54,9 +54,6 @@ const Layout1 = () => {
           <Ecommsites />
           <Servicesites />
           <Migrate />
-          <Grid2Equal />
-          <Grid2left1right />
-          <Grid1left2right />
           <Technologies />
           <Services />
           <Testimonials />
