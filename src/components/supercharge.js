@@ -6,10 +6,10 @@ export default function Architecture() {
       <div className="text-center">
         <h2 className="bg-gradient-to-br from-white to-amber-500 bg-clip-text text-4xl font-black tracking-tight text-transparent sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-8xl">
           <span className="mt-12 block leading-tight">
-            Supercharge conversions
+            Supercharge your site
           </span>
           <span className="block bg-gradient-to-br from-white via-amber-500 to-orange-500 bg-clip-text leading-tight text-transparent">
-            thru your sales funnel
+            to deliver results.
           </span>
         </h2>
       </div>

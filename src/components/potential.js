@@ -9,7 +9,7 @@ export default function Potential() {
             Unlock the potential
           </span>
           <span className="block bg-gradient-to-br from-white via-amber-500 to-orange-500 bg-clip-text leading-tight text-transparent">
-            of your website.
+            of your website
           </span>
         </h2>
       </div>

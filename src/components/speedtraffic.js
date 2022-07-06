@@ -4,7 +4,7 @@ export default function Benefits() {
   return (
     <div
       id="speed"
-      className="max-w-xl container mx-auto my-6 rounded-3xl bg-slate-900 bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] bg-cover bg-right"
+      className="max-w-xl container mx-auto my-6 rounded-3xl bg-slate-900 bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657066965/contact-background-right-1071x714_fooryd.png')] bg-cover bg-right"
     >
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
         <div className="md:col-span-1">
@@ -43,7 +43,7 @@ export default function Benefits() {
               <div className="grid grid-cols-1">
                 <div className="flex justify-around">
                   <div className="grid grid-cols-1">
-                    <h2 className="mt-2 text-2xl font-black text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
+                    <h2 className="mt-2 text-2xl font-bold text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
                       Legacy Stack
                     </h2>
                     <h3 className="text-regular mt-5 mb-5 font-mono uppercase tracking-tighter text-slate-50 sm:mt-6 md:text-2xl lg:mt-12 lg:text-3xl xl:mt-16">
@@ -53,7 +53,7 @@ export default function Benefits() {
                       Desktop Lighthouse: +35
                     </h3>
                   </div>
-                  <h2 className="mt-2 text-2xl font-black text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
+                  <h2 className="mt-2 text-2xl font-bold text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
                     vs. JamStack
                   </h2>
                 </div>

@@ -40,11 +40,11 @@ export default function Zerocosts() {
               <div className="grid grid-cols-1">
                 <div className="flex justify-around">
                   <div className="grid grid-cols-1">
-                    <h2 className="mt-2 text-2xl font-black text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
+                    <h2 className="mt-2 text-2xl font-bold text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
                       Legacy Stack
                     </h2>
                   </div>
-                  <h2 className="mt-2 text-2xl font-black text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
+                  <h2 className="mt-2 text-2xl font-bold text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
                     vs. JamStack
                   </h2>
                 </div>

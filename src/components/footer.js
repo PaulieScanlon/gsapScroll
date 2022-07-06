@@ -47,15 +47,33 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className="text-blue-400 hover:text-amber-500"
+              className="text-sky-500 hover:text-amber-500"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
         </div>
+        <div className="flex justify-center text-base text-sky-500 md:order-3">
+          <p>
+            <a className="text-amber-500 hover:text-sky-500" href="./layout1/">
+              Tailwindcss Styles
+            </a>
+          </p>
+        </div>
+        <div className="flex justify-center text-base text-sky-500 md:order-4">
+          <p>
+            Produced by{" "}
+            <a
+              className="text-amber-500 hover:text-sky-500"
+              href="https://www.sparker888.com"
+            >
+              sparker888
+            </a>
+          </p>
+        </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-base text-blue-400">
+          <p className="text-center text-base text-sky-500">
             &copy; 2022 Gravital Digital, Inc. All rights reserved.
           </p>
         </div>
