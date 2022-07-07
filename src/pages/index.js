@@ -17,8 +17,8 @@ const IndexPage = () => {
             alt="Gravital Digital Logo"
           />
         </div>
-        <div className="pt-6 pb-12 font-sans text-7xl font-black tracking-tighter">
-          <span className="text-sky-600">Gravital</span>{" "}
+        <div className="pt-6 pb-12 font-logo text-7xl font-black tracking-tighter">
+          <span className="text-sky-600">Gravital</span>
           <span className="text-amber-600">Digital</span>{" "}
           <span className="text-sky-600">Branding</span>
         </div>
@@ -41,22 +41,47 @@ const IndexPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
             <div className="px-4 py-5 sm:px-6">
-              <h1 className="font-sans text-4xl font-medium">
+              <h1 className="font-logo text-4xl font-bold">
                 <span className="font-bold underline underline-offset-4">
-                  Sans
+                  font-logo
                 </span>
-                : Interstate medium 4xl h1
+                : Myriad Pro
               </h1>
             </div>
             <div className="px-4 py-5 sm:p-6">
-              <div className="font-sans text-base font-medium">
+              <div className="font-logo text-3xl font-bold leading-loose tracking-tight">
+                font-logo font-bold (700) text-3xl tracking-tight
+              </div>
+              <div className="font-logo text-5xl font-black leading-loose tracking-tight">
+                font-logo font-black (900) text-5xl tracking-tight
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
+            <div className="px-4 py-5 sm:px-6">
+              <h1 className="font-sans text-4xl font-medium">
+                <span className="underline underline-offset-4">font-sans</span>:
+                Interstate Condensed
+              </h1>
+            </div>
+            <div className="px-4 py-5 sm:p-6">
+              <div className="font-sans text-base font-medium leading-loose">
                 font-sans font-medium (500) text-base
               </div>
-              <div className="font-sans text-2xl font-bold">
-                font-sans font-bold (700) text-2xl
+              <div className="font-sans text-2xl font-medium leading-loose">
+                font-sans font-medium (500) text-2xl
               </div>
-              <div className="font-sans text-5xl font-black tracking-tight">
-                font-sans font-black (900) text-5xl tracking-tight
+              <div className="font-sans text-3xl font-bold leading-loose">
+                font-sans font-bold (700) text-3xl
+              </div>
+              <div className="font-sans text-4xl font-bold leading-loose">
+                font-sans font-bold (700) text-4xl
+              </div>
+              <div className="font-sans text-5xl font-black leading-loose">
+                font-sans font-black (900) text-5xl
               </div>
             </div>
           </div>
@@ -67,20 +92,26 @@ const IndexPage = () => {
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-serif text-4xl font-bold">
                 <span className="font-bold underline underline-offset-4">
-                  Serif
+                  font-serif
                 </span>
-                : FF Meta Serif Pro bold 4xl h1
+                : FF Meta Serif Pro
               </h1>
             </div>
             <div className="px-4 py-5 sm:p-6">
-              <div className="font-book font-serif text-base">
+              <div className="font-book font-serif text-base leading-loose">
                 font-serif font-book (500) text-base
               </div>
-              <div className="font-book font-serif text-base italic">
+              <div className="font-book font-serif text-2xl italic leading-loose">
                 font-serif font-book (500) text-2xl italic
               </div>
-              <div className="font-serif text-5xl font-bold italic tracking-tight">
-                font-serif font-bold (700) text-5xl tracking-tight italic
+              <div className="font-serif text-3xl font-bold leading-loose">
+                font-serif font-bold (700) text-3xl
+              </div>
+              <div className="font-serif text-4xl font-bold italic leading-loose">
+                font-serif font-bold (700) text-4xl italic
+              </div>
+              <div className="font-serif text-5xl font-bold  leading-loose">
+                font-serif font-bold (700) text-5xl
               </div>
             </div>
           </div>
@@ -91,20 +122,26 @@ const IndexPage = () => {
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-Container font-body text-4xl">
                 <span className="font-bold underline underline-offset-4">
-                  Body
+                  font-body
                 </span>
-                : Open Sans bold (700) 4xl h1
+                : Open Sans
               </h1>
             </div>
             <div className="px-4 py-5 sm:p-6">
-              <div className="font-body text-base font-normal">
+              <div className="font-body text-base font-normal leading-loose">
                 font-body font-normal (400) text-base
               </div>
-              <div className="font-body text-base font-normal italic">
+              <div className="font-body text-2xl font-normal italic leading-loose">
                 font-body font-normal (400) text-2xl italic
               </div>
-              <div className="font-body text-5xl font-bold italic tracking-tight">
-                font-body font-bold (700) text-5xl tracking-tight italic
+              <div className="font-body text-3xl font-bold leading-loose">
+                font-body font-bold (700) text-3xl
+              </div>
+              <div className="font-body text-4xl font-bold italic leading-loose">
+                font-body font-bold (700) text-4xl italic
+              </div>
+              <div className="font-body text-5xl font-bold  leading-loose">
+                font-body font-bold (700) text-5xl
               </div>
             </div>
           </div>
@@ -115,14 +152,26 @@ const IndexPage = () => {
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-regular font-mono text-4xl">
                 <span className="font-bold underline underline-offset-4">
-                  Mono
+                  font-mono
                 </span>
-                : Regular (400) 4xl h1
+                : Base Mono Wide
               </h1>
             </div>
             <div className="px-4 py-5 sm:p-6">
-              <div className="font-regular font-mono text-base tracking-tight">
-                font-mono font-regular (400) text-base tracking-tight
+              <div className="font-mono text-base font-normal leading-loose tracking-tight">
+                font-mono font-normal (400) text-base tracking-tight
+              </div>
+              <div className="font-mono text-2xl font-normal leading-loose tracking-tight">
+                font-mono font-normal (400) text-2xl tracking-tight
+              </div>
+              <div className="font-mono text-3xl font-normal leading-loose tracking-tight">
+                font-mono font-normal (400) text-3xl; tracking-tight
+              </div>
+              <div className="font-mono text-4xl font-normal leading-loose tracking-tight">
+                font-mono font-normal (400) text-4xl tracking-tight
+              </div>
+              <div className="font-mono text-5xl font-normal leading-loose tracking-tight">
+                font-mono font-normal (400) text-5xl tracking-tight
               </div>
             </div>
           </div>
@@ -130,7 +179,7 @@ const IndexPage = () => {
       </section>
 
       {/* Subtitle */}
-      <div className="py-12 text-center font-sans text-5xl font-black tracking-tighter">
+      <div className="py-12 text-center font-sans text-5xl font-black">
         Color Palette
       </div>
 
@@ -168,7 +217,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 50
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#FAFAFA</div>
+              <div className="font-mono lowercase text-slate-500 ">#F8FAFC</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -177,7 +226,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 100
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#F5F5F5</div>
+              <div className="font-mono lowercase text-slate-500 ">#F1F5F9</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -186,7 +235,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 200
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#E5E5E5</div>
+              <div className="font-mono lowercase text-slate-500 ">#E2E8F0</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -195,7 +244,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 300
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#D4D4D4</div>
+              <div className="font-mono lowercase text-slate-500 ">#CBD5E1</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -204,7 +253,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 400
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#A3A3A3</div>
+              <div className="font-mono lowercase text-slate-500 ">#94A3B8</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -213,7 +262,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 500
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#737373</div>
+              <div className="font-mono lowercase text-slate-500 ">#64748B</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -222,7 +271,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 600
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#525252</div>
+              <div className="font-mono lowercase text-slate-500 ">#475569</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -231,7 +280,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 700
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#404040</div>
+              <div className="font-mono lowercase text-slate-500 ">#334155</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -240,7 +289,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 800
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#262626</div>
+              <div className="font-mono lowercase text-slate-500 ">#1E293B</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -249,7 +298,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 900
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#171717</div>
+              <div className="font-mono lowercase text-slate-500 ">#0F172A</div>
             </div>
           </div>
         </div>
@@ -297,7 +346,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 50
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#FEFCE8</div>
+              <div className="font-mono lowercase text-slate-500 ">#FFFBEB</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -306,7 +355,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 100
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#FEF9C3</div>
+              <div className="font-mono lowercase text-slate-500 ">#FEF3C7</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -315,7 +364,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 200
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#FEF08A</div>
+              <div className="font-mono lowercase text-slate-500 ">#FDE68A</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -324,7 +373,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 300
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#FDE047</div>
+              <div className="font-mono lowercase text-slate-500 ">#FCD34D</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -333,7 +382,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 400
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#FACC15</div>
+              <div className="font-mono lowercase text-slate-500 ">#FBBF24</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -342,7 +391,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full">
                 500
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#EAB308</div>
+              <div className="font-mono lowercase text-slate-500 ">#F59E0B</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -351,7 +400,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 600
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#CA8A04</div>
+              <div className="font-mono lowercase text-slate-500 ">#D97706</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -360,7 +409,9 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 700
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#A16207</div>
+              <div className="font-mono lowercase text-slate-500 ">
+                #A16B45309207
+              </div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -369,7 +420,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 800
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#854D0E</div>
+              <div className="font-mono lowercase text-slate-500 ">#92400E</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -378,7 +429,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 900
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#713F12</div>
+              <div className="font-mono lowercase text-slate-500 ">#78350F</div>
             </div>
           </div>
         </div>
@@ -683,7 +734,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 50
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#F0FDFA</div>
+              <div className="font-mono lowercase text-slate-500 ">#FAF5FF</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -692,7 +743,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 100
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#CCFBF1</div>
+              <div className="font-mono lowercase text-slate-500 ">#F3E8FF</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -701,7 +752,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 200
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#99F6E4</div>
+              <div className="font-mono lowercase text-slate-500 ">#E9D5FF</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -710,7 +761,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 300
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#5EEAD4</div>
+              <div className="font-mono lowercase text-slate-500 ">#D8B4FE</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -719,7 +770,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 400
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#2DD4BF</div>
+              <div className="font-mono lowercase text-slate-500 ">#C084FC</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -728,7 +779,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full">
                 500
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#14B8A6</div>
+              <div className="font-mono lowercase text-slate-500 ">#A855F7</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -737,7 +788,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 600
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#0D9488</div>
+              <div className="font-mono lowercase text-slate-500 ">#9333EA</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -746,7 +797,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 700
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#0F766E</div>
+              <div className="font-mono lowercase text-slate-500 ">#7E22CE</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -755,7 +806,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 800
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#115E59</div>
+              <div className="font-mono lowercase text-slate-500 ">#6B21A8</div>
             </div>
           </div>
           <div className="space-y-1.5">
@@ -764,7 +815,7 @@ const IndexPage = () => {
               <div className="w-6 font-medium text-slate-900 2xl:w-full ">
                 900
               </div>
-              <div className="font-mono lowercase text-slate-500 ">#134E4A</div>
+              <div className="font-mono lowercase text-slate-500 ">#581C87</div>
             </div>
           </div>
         </div>

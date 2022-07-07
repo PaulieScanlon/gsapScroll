@@ -12,6 +12,7 @@ module.exports = {
       serif: ["ff-meta-serif-web-pro", "serif"],
       body: ["open-sans", "sans-serif"],
       mono: ["base-mono-wide", "monospace"],
+      logo: ["myriad-pro"],
     },
     extend: {
       height: {
