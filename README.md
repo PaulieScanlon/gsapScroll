@@ -6,7 +6,7 @@
 
 # GSAP ScrollTrigger Experiment
 
-Last updated: June 26, 2022
+Last updated: July 7, 2022
 
 This is project under construction to test the latest GSAP ScrollTrigger functionality. Here are some resources we're working with:
 

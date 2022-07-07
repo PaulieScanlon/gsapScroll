@@ -89,7 +89,7 @@ const IndexPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
             <div className="px-4 py-5 sm:px-6">
-              <h1 className="font-Container text-4xl font-bold">
+              <h1 className="font-Container font-body text-4xl">
                 <span className="font-bold underline underline-offset-4">
                   Body
                 </span>
