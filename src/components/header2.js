@@ -19,7 +19,7 @@ export default function Header() {
       >
         <div className="flex w-full items-center justify-between border-b border-slate-700 py-3 lg:border-none">
           <div className="flex items-center">
-            <a href="/">
+            <a href="/layout1/">
               <span className="sr-only font-logo">Gravital Digital</span>
               <img
                 className="h-10 w-auto"

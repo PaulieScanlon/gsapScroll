@@ -197,7 +197,7 @@ export default function Contact() {
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
-                    className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
+                    className="font-sans inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
                   >
                     Send Message
                   </button>

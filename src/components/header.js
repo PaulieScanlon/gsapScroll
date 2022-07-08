@@ -49,14 +49,14 @@ export default function Header() {
             <AnchorLink
               to="./#showcase"
               title="Showcase"
-              className="sm:content hidden rounded-full border border-transparent bg-sky-500 py-2 px-4 font-body text-base font-normal text-slate-50 transition duration-500 hover:bg-sky-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
+              className="sm:content hidden rounded-full border border-transparent bg-sky-500 py-2 px-4 font-sans text-base font-normal text-slate-50 transition duration-500 hover:bg-sky-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
             >
               Showcase
             </AnchorLink>
             <AnchorLink
               to="./#contact"
               title="Contact"
-              className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 font-body text-base font-normal text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
+              className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 font-sans text-base font-normal text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
             >
               Contact
             </AnchorLink>
