@@ -47,21 +47,21 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sky-500 hover:text-amber-500"
+              className="font-body text-base font-normal text-sky-500 hover:text-amber-500"
             >
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
         </div>
-        <div className="flex justify-center text-base text-sky-500 md:order-3">
+        <div className="flex justify-center font-body text-base font-normal text-sky-500 md:order-3">
           <p>
             <a className="text-amber-500 hover:text-sky-500" href="/">
-              Tailwindcss Styles
+              Our Style Guide
             </a>
           </p>
         </div>
-        <div className="flex justify-center text-base text-sky-500 md:order-4">
+        <div className="flex justify-center font-body font-body text-base font-normal text-sky-500 md:order-4">
           <p>
             Produced by{" "}
             <a
@@ -73,7 +73,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-base text-sky-500">
+          <p className="text-center font-body text-base font-normal text-sky-500">
             &copy; 2022 Gravital Digital, Inc. All rights reserved.
           </p>
         </div>
