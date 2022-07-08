@@ -50,11 +50,11 @@ export default function Hero3() {
               <AnchorLink
                 to="./#flexibility"
                 title="Flexibility"
-                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 pr-1 font-body text-base font-bold text-purple-200 shadow-xl shadow-purple-700/30 transition-colors duration-700 hover:bg-amber-600 hover:text-slate-200 hover:shadow-amber-700/30 sm:px-8"
+                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 pr-1 font-body text-base font-bold text-slate-50 shadow-xl shadow-purple-700/30 transition-colors duration-700 hover:bg-amber-600 hover:text-slate-50 hover:shadow-amber-700/30 sm:px-8"
               >
                 <span className="mr-1">FLEXIBILITY</span>
                 <span>
-                  <ArrowCircleDownIcon className="mb-1 h-5 w-5 group-hover:animate-bounce group-hover:text-purple-50" />
+                  <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-slate-50" />
                 </span>
               </AnchorLink>
             </div>

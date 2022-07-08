@@ -8,7 +8,6 @@ import Speed from "../components/speed"
 import Flexibility from "../components/flexibility"
 import Reliability from "../components/reliability"
 import Webuild from "../components/webuild"
-import Migrate from "../components/migrate"
 import Grid2Equal from "../components/grid2equal"
 import Grid2left1right from "../components/grid2left1right"
 import Grid1left2right from "../components/grid1left2right"
@@ -17,13 +16,14 @@ import Speedconversions from "../components/speedconversions"
 import Servicesanywhere from "../components/servicesanywhere"
 import Contentanywhere from "../components/contentanywhere"
 import Perfectmarketers from "../components/perfectmarketers"
-import Zerodowntime from "../components/zerodowntime"
+import ReliableCDN from "../components/reliableCDN"
 import Zerozero from "../components/zerozero"
 import Zerocosts from "../components/zerocosts"
 import Supercharge from "../components/supercharge"
 import Contentsites from "../components/contentsites"
 import Ecommsites from "../components/ecommsites"
 import Servicesites from "../components/servicesites"
+import Upgrade from "../components/upgrade"
 import Technologies from "../components/technologies"
 import Services from "../components/services"
 import Testimonials from "../components/testimonials"
@@ -46,14 +46,14 @@ const Layout1 = () => {
           <Perfectmarketers />
           <Contentanywhere />
           <Servicesanywhere />
-          <Zerodowntime />
+          <ReliableCDN />
           <Zerozero />
           <Zerocosts />
           <Supercharge />
           <Contentsites />
           <Ecommsites />
           <Servicesites />
-          <Migrate />
+          <Upgrade />
           <Technologies />
           <Services />
           <Testimonials />

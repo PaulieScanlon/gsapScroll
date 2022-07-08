@@ -51,15 +51,15 @@ export default function Speed() {
                 to="./#speed"
                 title="Speed"
                 className="font-2xl group flex items-center justify-center
-                rounded-full border border-transparent bg-pink-500 px-4 py-3
-                pb-4 pr-1 font-body text-base font-bold text-red-200 shadow-xl
-                shadow-red-700/30 transition-colors duration-700
-                hover:bg-purple-500 hover:text-slate-200
-                hover:shadow-purple-700/30 sm:px-8"
+                rounded-full border border-transparent bg-sky-600 px-4 py-3
+                pr-1 font-body text-base font-bold text-slate-50 shadow-xl
+                shadow-sky-700/30 transition-colors duration-700
+                hover:bg-pink-500 hover:text-slate-50
+                hover:shadow-pink-700/30 sm:px-8"
               >
                 <span className="mr-1">SPEED</span>
                 <span></span>
-                <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-pink-50" />
+                <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-slate-50" />
               </AnchorLink>
             </div>
           </div>
