@@ -14,7 +14,7 @@ export default function Benefits() {
           <h3 className="mb-6 font-sans text-2xl font-bold text-amber-500 lg:text-3xl">
             Content from anywhere
           </h3>
-          <p className="mr-15 font-body text-base font-normal text-white md:text-xl lg:text-2xl">
+          <p className="mr-15 font-body text-base font-normal text-white md:text-xl">
             <span className="bg-gradient-to-br from-purple-400 to-red-400 bg-clip-text font-black text-transparent">
               Jamstack
             </span>{" "}

@@ -57,8 +57,11 @@ export default function Footer() {
         <div className="mt-8 md:order-3 md:mt-0">
           <div className="flex justify-center font-body text-base font-normal text-sky-500 md:order-3">
             <p>
-              <a className="text-amber-500 hover:text-sky-500" href="/">
-                Style Guide
+              <a
+                className="text-amber-500 hover:text-sky-500"
+                href="https://www.tailwindcss.com/"
+              >
+                Tailwindcss.com
               </a>
             </p>
           </div>
@@ -70,7 +73,7 @@ export default function Footer() {
               Produced by{" "}
               <a
                 className="text-amber-500 hover:text-sky-500"
-                href="https://www.sparker888.com"
+                href="https://www.sparker888.com/"
               >
                 sparker888
               </a>
