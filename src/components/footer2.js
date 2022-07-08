@@ -54,30 +54,32 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <div className="flex justify-center font-body text-base text-base font-normal text-sky-500 md:order-3">
-          <p>
-            <a
-              className="text-amber-500 hover:text-sky-500"
-              href="https://www.tailwindcss.com/"
-            >
-              Tailwindcss.com
-            </a>
-          </p>
+        <div className="mt-8 md:order-3 md:mt-0">
+          <div className="flex justify-center font-body text-base font-normal text-sky-500 md:order-3">
+            <p>
+              <a className="text-amber-500 hover:text-sky-500" href="/">
+                Style Guide
+              </a>
+            </p>
+          </div>
         </div>
-        <div className="flex justify-center font-body text-base text-base font-normal text-sky-500 md:order-4">
-          <p>
-            Produced by{" "}
-            <a
-              className="text-amber-500 hover:text-sky-500"
-              href="https://www.sparker888.com"
-            >
-              sparker888
-            </a>
-          </p>
+
+        <div className="mt-8 md:order-4 md:mt-0">
+          <div className="text-center font-body text-base font-normal text-sky-500">
+            <p>
+              Produced by{" "}
+              <a
+                className="text-amber-500 hover:text-sky-500"
+                href="https://www.sparker888.com"
+              >
+                sparker888
+              </a>
+            </p>
+          </div>
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-base text-center font-body font-normal text-sky-500">
-            &copy; 2022 Gravital Digital, Inc. All rights reserved.
+          <p className="text-center font-body text-base font-normal text-sky-500">
+            &copy; 2022 Gravital Digital, Inc.
           </p>
         </div>
       </div>

@@ -4,17 +4,17 @@ export default function Benefits() {
   return (
     <div
       id="flexibility"
-      className="max-w-xl container mx-auto mb-6 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977286/blue-background-lt-left_vzcl5v.jpg')] bg-cover"
+      className="bg-slate-900 max-w-xl container mx-auto mb-6 mt-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977286/blue-background-lt-left_vzcl5v.jpg')] bg-cover"
     >
       <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pl-16 xl:grid-cols-3">
         <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 py-12 md:col-span-1 lg:py-24">
-          <h1 className="font-sans mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end xl:text-6xl">
+          <h1 className="mb-5 justify-self-end font-sans text-5xl font-black text-white md:justify-self-end xl:text-6xl">
             Flexibility.
           </h1>
-          <h3 className="font-sans mb-6 text-2xl font-bold text-amber-500 lg:text-3xl">
+          <h3 className="mb-6 font-sans text-2xl font-bold text-amber-500 lg:text-3xl">
             Content from anywhere
           </h3>
-          <p className="mr-15 text-base font-body font-normal text-white md:text-xl lg:text-2xl">
+          <p className="mr-15 font-body text-base font-normal text-white md:text-xl lg:text-2xl">
             <span className="bg-gradient-to-br from-purple-400 to-red-400 bg-clip-text font-black text-transparent">
               Jamstack
             </span>{" "}

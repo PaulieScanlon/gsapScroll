@@ -2,7 +2,7 @@ import * as React from "react"
 
 export default function Example() {
   return (
-    <div className="max-w-xl container mx-auto mb-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] bg-cover">
+    <div className="bg-slate-900 max-w-xl container mx-auto mb-6 rounded-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] bg-cover">
       <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pr-16 xl:grid-cols-3">
         <div className="grid-row-2 col-span-1 lg:col-span-2">
           <div className="justify-around py-12 sm:flex md:flex-row lg:py-24">
@@ -25,7 +25,7 @@ export default function Example() {
           <h3 className="fpmt-sans mb-6 text-2xl font-bold text-amber-500 lg:text-3xl">
             Services from anywhere
           </h3>
-          <p className="mr-15 mb-5 sm:mb-0 font-body text-base font-normal text-white md:text-xl lg:text-2xl">
+          <p className="mr-15 mb-5 font-body text-base font-normal text-white sm:mb-0 md:text-xl lg:text-2xl">
             If you've been involved with building complex web projects, you
             understand how hard it can be to choose the right platforms and
             technologies for the task. Now, with{" "}
