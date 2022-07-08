@@ -13,7 +13,7 @@ export default function Testimonials() {
             />
           </div>
           <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-            <div className="relative text-lg font-medium text-white md:flex-grow">
+            <div className="lg:text-2lg font-book relative font-serif text-lg leading-loose text-white md:flex-grow">
               <svg
                 className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-amber-500"
                 fill="currentColor"
@@ -39,10 +39,10 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="ml-4">
-                  <div className="text-base font-medium text-white">
+                  <div className="font-body text-base font-bold text-white">
                     Dawn Bare
                   </div>
-                  <div className="text-base font-medium text-indigo-200">
+                  <div className="font-body text-base font-medium text-indigo-200">
                     CEO, Benevolent Senior Services
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Testimonials() {
             />
           </div>
           <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-            <div className="relative text-lg font-medium text-white md:flex-grow">
+            <div className="lg:text-2lg font-book relative font-serif text-lg leading-loose text-white md:flex-grow">
               <svg
                 className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-amber-500"
                 fill="currentColor"
@@ -85,10 +85,10 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="ml-4">
-                  <div className="text-base font-medium text-white">
+                  <div className="font-body text-base font-bold text-white">
                     John Emery
                   </div>
-                  <div className="text-base font-medium text-indigo-200">
+                  <div className="font-body text-base font-medium text-indigo-200">
                     Partner, Preston Studios
                   </div>
                 </div>

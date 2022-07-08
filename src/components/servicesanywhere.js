@@ -19,13 +19,13 @@ export default function Example() {
         </div>
 
         <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 pt-0 md:col-span-1 lg:py-24">
-          <h1 className="mb-5 justify-self-end text-5xl font-black text-white md:justify-self-end xl:text-6xl">
+          <h1 className="mb-5 justify-self-end font-sans text-5xl font-black text-white md:justify-self-end xl:text-6xl">
             Flexibility.
           </h1>
-          <h3 className="mb-6 text-2xl font-bold text-sky-200 lg:text-3xl">
+          <h3 className="fpmt-sans mb-6 text-2xl font-bold text-amber-500 lg:text-3xl">
             Services from anywhere
           </h3>
-          <p className="mr-15 text-base font-medium text-white md:text-lg">
+          <p className="mr-15 mb-5 sm:mb-0 font-body text-base font-normal text-white md:text-xl lg:text-2xl">
             If you've been involved with building complex web projects, you
             understand how hard it can be to choose the right platforms and
             technologies for the task. Now, with{" "}

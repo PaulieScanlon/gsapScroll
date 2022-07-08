@@ -11,8 +11,8 @@ import Webuild from "../components/webuild"
 import Grid2Equal from "../components/grid2equal"
 import Grid2left1right from "../components/grid2left1right"
 import Grid1left2right from "../components/grid1left2right"
-import Speedtraffic from "../components/speedtraffic"
-import Speedconversions from "../components/speedconversions"
+import Traffic from "../components/speedtraffic"
+import Conversions from "../components/speedconversions"
 import Servicesanywhere from "../components/servicesanywhere"
 import Contentanywhere from "../components/contentanywhere"
 import Perfectmarketers from "../components/perfectmarketers"
@@ -41,8 +41,8 @@ const Layout1 = () => {
           <Flexibility />
           <Reliability />
           <Webuild />
-          <Speedtraffic />
-          <Speedconversions />
+          <Traffic />
+          <Conversions />
           <Perfectmarketers />
           <Contentanywhere />
           <Servicesanywhere />

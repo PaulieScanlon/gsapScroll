@@ -42,7 +42,7 @@ export default function Header() {
           </div>
           <div className="space-x-4">
             <div className="inline-block">
-              <h2 className="ml-4 font-logo text-base font-black tracking-wider text-sky-500">
+              <h2 className="ml-4 font-logo text-2xl font-black text-sky-500">
                 Gravital<span className="text-amber-500">Digital</span>
               </h2>
             </div>

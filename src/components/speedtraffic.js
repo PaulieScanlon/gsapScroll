@@ -1,6 +1,6 @@
 import * as React from "react"
 
-export default function Benefits() {
+export default function Traffic() {
   return (
     <div
       id="speed"
@@ -11,25 +11,25 @@ export default function Benefits() {
           <div className="pb-0 pt-6 sm:px-6 md:flex md:flex-row md:py-12">
             <div className="sm:flex-shrink">
               <div className="flow-root">
-                <h1 className="mt-2 text-5xl font-black text-sky-50 sm:mt-12 md:mt-0 md:text-6xl lg:mt-2 xl:text-7xl">
+                <h1 className="text-5xl font-sans font-black text-sky-50 sm:mt-12 md:mt-0 md:text-6xl xl:text-7xl">
                   Speed.
                 </h1>
-                <h1 className="mt-5 text-4xl font-black text-amber-500 sm:mt-10 lg:mt-20 lg:text-5xl xl:text-6xl 2xl:text-7xl ">
+                <h1 className="mt-5 font-sans text-4xl font-bold text-amber-500 sm:mt-10 lg:mt-20 lg:text-5xl xl:text-6xl 2xl:text-7xl ">
                   10%
                 </h1>
-                <h2 className="font-regular mt-2 text-2xl text-slate-50 lg:text-4xl">
+                <h2 className="mt-2 font-sans text-2xl text-slate-50 sm:text-3xl lg:text-4xl">
                   increase in site traffic
                 </h2>
-                <h1 className="lg:mt-15 mt-3 text-3xl font-bold text-amber-700 sm:mt-7 sm:text-4xl lg:text-5xl">
+                <h1 className="lg:mt-15 mt-3 font-sans text-3xl font-bold text-amber-700 sm:mt-7 sm:text-4xl lg:text-5xl">
                   7.2%
                 </h1>
-                <h2 className="font-regular mt-2 text-2xl text-slate-50 sm:text-3xl lg:text-4xl">
+                <h2 className="mt-2 font-sans text-2xl text-slate-50 sm:text-3xl lg:text-4xl">
                   increase in search ranking
                 </h2>
-                <h1 className="lg:mt-15 mt-3 text-3xl font-bold text-red-500 sm:mt-7 sm:text-4xl lg:text-5xl">
+                <h1 className="lg:mt-15 mt-3 font-sans text-3xl font-bold text-red-500 sm:mt-7 sm:text-4xl lg:text-5xl">
                   20-30%
                 </h1>
-                <h2 className="font-regular mt-2 text-2xl text-slate-50 sm:text-3xl lg:text-4xl">
+                <h2 className="font-regular mt-2 font-sans text-2xl text-slate-50 sm:text-3xl lg:text-4xl">
                   fewer bounces
                 </h2>
               </div>
@@ -38,23 +38,32 @@ export default function Benefits() {
         </div>
 
         <div className="col-span-1 lg:col-span-2">
-          <div className="justify-around pb-0 pt-6 sm:py-0 md:flex md:flex-row md:py-12">
+          <div className="md:py-15 lg:pt-25 justify-around pt-0 pb-6 sm:flex md:flex-row">
             <div className="sm:flex-shrink">
               <div className="grid grid-cols-1">
-                <div className="flex justify-around">
+                <div className="flex justify-start md:justify-around">
                   <div className="grid grid-cols-1">
-                    <h2 className="mt-2 text-2xl font-bold text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
+                    <h2 className="my-1 font-body text-xl font-bold text-sky-50 sm:my-16 sm:mt-12 sm:text-3xl lg:my-14 lg:text-4xl">
                       Legacy Stack
                     </h2>
-                    <h3 className="text-regular mt-5 mb-5 font-mono uppercase tracking-tighter text-slate-50 sm:mt-6 md:text-2xl lg:mt-12 lg:text-3xl xl:mt-16">
-                      Mobile Lighthouse: +63
+                    <h3 className="my-2 font-sans text-xl text-slate-50 sm:my-6 md:text-2xl lg:mt-2 lg:text-3xl xl:my-5">
+                      Mobile Lighthouse:{" "}
+                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
+                        +63
+                      </span>
                     </h3>
-                    <h3 className="text-regular font-mono uppercase tracking-tight text-slate-50 md:text-2xl lg:text-3xl">
-                      Desktop Lighthouse: +35
+                    <h3 className="font-sans text-xl text-slate-50 md:text-2xl lg:text-3xl">
+                      Desktop Lighthouse:{" "}
+                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
+                        +35
+                      </span>
                     </h3>
                   </div>
-                  <h2 className="mt-2 text-2xl font-bold text-sky-50 sm:mt-12 sm:text-3xl md:mt-0 lg:mt-2 lg:text-4xl">
-                    vs. JamStack
+                  <h2 className="my-0 ml-10 text-xl font-bold text-sky-50 sm:ml-44 md:ml-24 sm:my-11 sm:text-2xl lg:my-12 lg:ml-22 lg:text-3xl xl:ml-10">
+                    vs.{" "}
+                    <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-2xl font-black tracking-normal text-transparent sm:text-4xl lg:text-5xl">
+                      JamStack{" "}
+                    </span>
                   </h2>
                 </div>
                 <img
@@ -62,7 +71,7 @@ export default function Benefits() {
                   src="https://res.cloudinary.com/gravital-digital/image/upload/v1656372032/bar-chart_twraww.png"
                   alt="Bar Graph with rise from JamStack"
                 />
-                <p className="text-regular mx-auto mt-2 mb-5 text-slate-50">
+                <p className="sm:text-regular mx-auto mt-2 mb-5 font-body text-sm text-slate-50">
                   Source: Netlify "Quantifying the Value of Modern Web
                   Development" slides (May '22) and presentation "Gatsby for Web
                   Design Agencies" from Gatsby marketing (Nov '21).

@@ -12,10 +12,10 @@ export default function Benefits() {
             <div className="block rounded-2xl rounded-tl-none border border-slate-400 bg-gradient-to-r from-sky-600 to-purple-600 text-center">
               <div className="flow-root">
                 <div class="rounded-xl-embed my-3 rounded-t-none py-8 px-6 md:shadow-red-500">
-                  <h2 className="mt-2 mb-6 text-3xl font-black text-slate-50 lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                  <h2 className="mt-2 mb-6 font-sans text-4xl font-bold text-slate-50 lg:text-5xl xl:text-6xl">
                     Zero Hacks
                   </h2>
-                  <span className="mt-2 text-xl text-slate-50">
+                  <span className="mt-2 font-body text-xl text-slate-50">
                     With server-side processes abstracted into microservice
                     APIs, surface areas for attacks are reduced. You can also
                     leverage the domain expertise of specialist third-party
@@ -32,10 +32,10 @@ export default function Benefits() {
             <div className="flow-root">
               <div className="block rounded-2xl rounded-tl-none border border-gray-400 bg-gradient-to-r from-purple-600 to-purple-900 text-center">
                 <div class="rounded-xl-embed my-3 rounded-t-none py-8 px-6">
-                  <h2 className="mt-2 mb-6 text-3xl font-black text-slate-50 lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                  <h2 className="mt-2 mb-6 font-sans text-4xl font-bold text-slate-50 lg:text-5xl xl:text-6xl">
                     Zero Downtime
                   </h2>
-                  <span className="mt-2 text-xl text-slate-50">
+                  <span className="mt-2 font-body text-xl text-slate-50">
                     When deployment becomes a set of static files served
                     anywhere, scaling is simply serving those files in more
                     places. CDNs are perfect for this, typically with scaling in

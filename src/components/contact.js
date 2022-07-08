@@ -22,13 +22,17 @@ export default function Contact() {
                   alt="Gravital Digital Logo"
                 />
               </div>
-              <h2 className="text-center text-base font-semibold uppercase tracking-wider text-blue-500">
-                GRAVITAL <span className="text-orange-500">DIGITAL</span>
+              <h2 className="pt-2 text-center lg:pt-4 xl:pt-6">
+                <span className="font-logo text-3xl font-bold tracking-tighter text-sky-600 md:text-4xl">
+                  Gravital
+                </span>
+                {""}
+                <span className="font-logo text-3xl font-bold tracking-tighter text-amber-600 md:text-4xl">
+                  Digital
+                </span>
               </h2>
-              <p className="max-w-3xl mt-6 text-base text-sky-200">
-                Like many in the tech industry, we work offsite. The fastest way
-                to get in touch is to call and leave a message if needed or drop
-                us a digital message using the form here. Thank you!
+              <p className="font-body max-w-3xl mt-6 font-body text-base text-sky-200">
+                For quickest response, please use the contact us form. If calling, please leave a message and we'll return your call ASAP. Thank you!
               </p>
               <dl className="mt-8 space-y-6">
                 <dt>
@@ -39,7 +43,7 @@ export default function Contact() {
                     className="h-6 w-6 flex-shrink-0 text-blue-500"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">407-710-5497</span>
+                  <span className="font-body ml-3">407-710-5497</span>
                 </dd>
                 <dt>
                   <span className="sr-only">Email</span>
@@ -49,7 +53,7 @@ export default function Contact() {
                     className="h-6 w-6 flex-shrink-0 text-orange-500"
                     aria-hidden="true"
                   />
-                  <span className="ml-3">go@gravitaldigital.com</span>
+                  <span className="font-body ml-3">go@gravitaldigital.com</span>
                 </dd>
               </dl>
             </div>
