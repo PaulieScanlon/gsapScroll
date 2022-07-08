@@ -36,8 +36,8 @@ export default function Speed() {
         </div>
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
-          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
-            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
+          <h3 className="mt-6 text-center font-body text-xl font-bold italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
+            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-3xl font-black tracking-normal text-transparent">
               JamStack{" "}
             </span>
             gives us the tools needed to push site performance to
@@ -50,12 +50,16 @@ export default function Speed() {
               <AnchorLink
                 to="./#speed"
                 title="Speed"
-                className="group flex items-center justify-center rounded-full border border-transparent bg-sky-500 px-4 py-3 text-base font-bold text-sky-200 shadow-xl shadow-sky-700/30 transition duration-700 hover:bg-pink-500 hover:text-slate-200 hover:shadow-red-700/30 sm:px-8"
+                className="font-2xl group flex items-center justify-center
+                rounded-full border border-transparent bg-pink-500 px-4 py-3
+                pb-4 pr-1 font-body text-base font-bold text-red-200 shadow-xl
+                shadow-red-700/30 transition-colors duration-700
+                hover:bg-purple-500 hover:text-slate-200
+                hover:shadow-purple-700/30 sm:px-8"
               >
                 <span className="mr-1">SPEED</span>
-                <span>
-                  <ArrowCircleDownIcon className="mb-1 h-5 w-5 group-hover:animate-bounce group-hover:text-sky-50" />
-                </span>
+                <span></span>
+                <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-pink-50" />
               </AnchorLink>
             </div>
           </div>

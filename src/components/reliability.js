@@ -36,9 +36,9 @@ export default function Hero3() {
         </div>
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
-          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
+          <h3 className="mt-6 text-center font-body text-xl font-bold italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
             Our{" "}
-            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-3xl font-black tracking-normal text-transparent">
               JamStack{" "}
             </span>
             websites and apps provide a stress-free solution for businesses that
@@ -51,11 +51,11 @@ export default function Hero3() {
               <AnchorLink
                 to="./#reliability"
                 title="Reliability"
-                className="group flex items-center justify-center rounded-full border border-transparent bg-pink-500 px-4 py-3 text-base font-bold text-red-200 shadow-xl shadow-red-700/30 transition-colors duration-700 hover:bg-purple-500 hover:text-slate-200 hover:shadow-purple-700/30 sm:px-8"
+                className="font-2xl group flex items-center justify-center rounded-full border border-transparent bg-pink-500 px-4 py-3 pb-4 font-body text-base font-bold text-red-200 shadow-xl shadow-red-700/30 transition-colors duration-700 hover:bg-purple-500 hover:text-slate-200 hover:shadow-purple-700/30 sm:px-8"
               >
                 <span className="mr-1">RELIABILITY</span>
                 <span>
-                  <ArrowCircleDownIcon className="mb-1 h-5 w-5 group-hover:animate-bounce group-hover:text-pink-50" />
+                  <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-pink-50" />
                 </span>
               </AnchorLink>
             </div>

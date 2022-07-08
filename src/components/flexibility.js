@@ -36,11 +36,11 @@ export default function Hero3() {
         </div>
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
-          <h3 className="mt-6 text-center font-body text-xl italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
+          <h3 className="mt-6 text-center font-body text-xl font-bold italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
             Give marketers direct access to preview and publish without the need
             for a developer, and give developers easy access to a wide range of
             microservices.{" "}
-            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-3xl font-black tracking-normal text-transparent">
               JamStack's{" "}
             </span>
             flexibility makes 'content & services from anywhere' possible.
@@ -50,7 +50,7 @@ export default function Hero3() {
               <AnchorLink
                 to="./#flexibility"
                 title="Flexibility"
-                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 text-base font-bold text-purple-200 shadow-xl shadow-purple-700/30 transition-colors duration-700 hover:bg-amber-600 hover:text-slate-200 hover:shadow-amber-700/30 sm:px-8"
+                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 pr-1 font-body text-base font-bold text-purple-200 shadow-xl shadow-purple-700/30 transition-colors duration-700 hover:bg-amber-600 hover:text-slate-200 hover:shadow-amber-700/30 sm:px-8"
               >
                 <span className="mr-1">FLEXIBILITY</span>
                 <span>
