@@ -65,7 +65,7 @@ export default function Services() {
               to work on your next project.
             </span>
           </h1>
-          <p className="max-w-xl mt-6 font-body text-xl text-gray-300 lg:max-w-[50%]">
+          <p className="max-w-xl mt-6 font-body leading-relaxed text-xl lg:text-2xl text-gray-300 lg:max-w-[50%]">
             Realize the potential of your website to deliver blazing speed,
             higher Google rankings, a great user experience, and higher
             conversion rates. We have the full range of services to support
