@@ -42,8 +42,8 @@ export default function Header() {
           </div>
           <div className="space-x-4">
             <div className="inline-block">
-              <h2 className="ml-4 font-logo text-base font-black uppercase tracking-wider text-sky-500">
-                GRAVITAL<span className="text-amber-500">DIGITAL</span>
+              <h2 className="ml-4 font-logo text-base font-black tracking-wider text-sky-500">
+                Gravital<span className="text-amber-500">Digital</span>
               </h2>
             </div>
             <AnchorLink

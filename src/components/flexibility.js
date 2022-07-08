@@ -40,7 +40,7 @@ export default function Hero3() {
             Give marketers direct access to preview and publish without the need
             for a developer, and give developers easy access to a wide range of
             microservices.{" "}
-            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-3xl font-black tracking-normal text-transparent">
+            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-2xl font-black tracking-normal text-transparent lg:text-3xl">
               JamStack's{" "}
             </span>
             flexibility makes 'content & services from anywhere' possible.
