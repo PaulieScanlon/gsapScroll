@@ -43,7 +43,15 @@ export default function Hero3() {
             <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-2xl font-black tracking-normal text-transparent lg:text-3xl">
               JamStack's{" "}
             </span>
-            flexibility makes 'content & services from anywhere' possible.
+            flexibility makes{" "}
+            <span className="font-body text-2xl font-bold text-amber-300 xl:text-3xl">
+              '
+            </span>
+            content & services from anywhere
+            <span className="font-body text-2xl font-bold text-amber-300 xl:text-3xl">
+              '
+            </span>{" "}
+            possible.
           </h3>
           <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
