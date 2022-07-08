@@ -19,7 +19,7 @@ export default function Header() {
       >
         <div className="flex w-full items-center justify-between border-b border-slate-700 py-3 lg:border-none">
           <div className="flex items-center">
-            <a href="/layout1/">
+            <a href="/">
               <span className="sr-only font-logo">Gravital Digital</span>
               <img
                 className="h-10 w-auto"
@@ -33,28 +33,28 @@ export default function Header() {
                   key={link.name}
                   title={link.name}
                   to={link.href}
-                  className="font-body text-base font-bold text-blue-400 hover:text-amber-500"
+                  className="font-body text-base font-bold text-sky-500 hover:text-amber-500"
                 >
                   {link.name}
                 </AnchorLink>
               ))}
             </div>
           </div>
-          <div className="space-x-4">
+          <div className="flex items-center space-x-4">
             <div className="inline-block">
-              <h2 className="ml-4 font-logo text-base font-black tracking-wider text-sky-500">
+              <h2 className="ml-4 font-logo text-2xl font-bold text-sky-500">
                 Gravital<span className="text-amber-500">Digital</span>
               </h2>
             </div>
             <AnchorLink
-              to="/layout1/#showcase"
+              to="./#showcase"
               title="Showcase"
               className="sm:content hidden rounded-full border border-transparent bg-sky-500 py-2 px-4 font-body text-base font-normal text-slate-50 transition duration-500 hover:bg-sky-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
             >
               Showcase
             </AnchorLink>
             <AnchorLink
-              to="/layout1/#contact"
+              to="./#contact"
               title="Contact"
               className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 font-body text-base font-normal text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
             >

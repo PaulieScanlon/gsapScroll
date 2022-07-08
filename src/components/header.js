@@ -40,9 +40,9 @@ export default function Header() {
               ))}
             </div>
           </div>
-          <div className="space-x-4">
+          <div className="flex items-center space-x-4">
             <div className="inline-block">
-              <h2 className="ml-4 font-logo text-2xl font-black text-sky-500">
+              <h2 className="ml-4 font-logo text-2xl font-bold text-sky-500">
                 Gravital<span className="text-amber-500">Digital</span>
               </h2>
             </div>
@@ -68,7 +68,7 @@ export default function Header() {
               key={link.name}
               title={link.name}
               to={link.href}
-              className="font-body text-base font-bold text-blue-400 hover:text-amber-500"
+              className="font-body text-base font-bold text-sky-500 hover:text-amber-500"
             >
               {link.name}
             </AnchorLink>
