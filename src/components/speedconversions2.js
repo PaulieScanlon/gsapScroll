@@ -3,9 +3,12 @@ import { StaticImage } from "gatsby-plugin-image"
 
 export default function Conversions() {
   return (
-    <div className="max-w-xl container mx-auto my-6 rounded-3xl bg-slate-900 bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657331262/speed-bg-conversions_bbb7no.jpg')] bg-cover bg-right">
+    <div
+      className="max-w-xl container mx-auto my-6 rounded-3xl 
+bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657331262/speed-bg-conversions_bbb7no.jpg')] from-amber-900 to-orange-900 bg-cover bg-right"
+    >
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
-        <div className="col-span-1 lg:col-span-2 order-last md:order-first">
+        <div className="order-last col-span-1 md:order-first lg:col-span-2">
           <div className="md:py-15 lg:pt-25 justify-around pt-0 pb-6 sm:flex md:flex-row">
             <div className="sm:flex-shrink">
               <div className="grid grid-cols-1">
