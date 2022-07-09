@@ -61,7 +61,7 @@ export default function Contact() {
             </div>
 
             {/* Contact form */}
-            <div className="rounded-r-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] from-slate-900 to-orange-800 bg-cover bg-right py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+            <div className="rounded-r-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] from-blue-900 to-fuchsia-900 bg-cover bg-right py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <form
                 name="contact"
                 form

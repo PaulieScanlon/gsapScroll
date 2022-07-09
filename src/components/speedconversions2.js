@@ -5,7 +5,7 @@ export default function Conversions() {
   return (
     <div
       className="max-w-xl container mx-auto my-6 rounded-3xl 
-bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657331262/speed-bg-conversions_bbb7no.jpg')] from-orange-900 to-slate-900 bg-cover bg-right"
+bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657331262/speed-bg-conversions_bbb7no.jpg')] from-fuchsia-900 to-blue-900 bg-cover bg-right"
     >
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
         <div className="order-last col-span-1 md:order-first lg:col-span-2">
