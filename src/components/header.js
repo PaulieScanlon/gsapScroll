@@ -33,7 +33,7 @@ export default function Header() {
                   key={link.name}
                   title={link.name}
                   to={link.href}
-                  className="font-body text-base font-bold text-blue-600 hover:text-amber-600"
+                  className="font-body text-base font-bold text-blue-500 hover:text-amber-500"
                 >
                   {link.name}
                 </AnchorLink>
