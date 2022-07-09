@@ -13,7 +13,7 @@ export default function Testimonials() {
             />
           </div>
           <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-            <div className="lg:text-2lg font-book relative font-serif text-lg leading-loose text-white md:flex-grow">
+            <div className="lg:text-2lg font-book relative font-serif text-lg leading-loose text-slate-200 md:flex-grow">
               <svg
                 className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-amber-500"
                 fill="currentColor"
@@ -31,7 +31,7 @@ export default function Testimonials() {
             </div>
             <footer className="mt-8">
               <div className="flex items-start">
-                <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                <div className="inline-flex flex-shrink-0 rounded-full border-2 border-sky-400">
                   <img
                     className="h-12 w-12 rounded-full"
                     src="https://res.cloudinary.com/gravital-digital/image/upload/v1651515070/Dawn_Bare_oyx0rr.jpg"
@@ -39,10 +39,10 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="ml-4">
-                  <div className="font-body text-base font-bold text-white">
+                  <div className="font-body text-base font-bold text-sky-200">
                     Dawn Bare
                   </div>
-                  <div className="font-body text-base font-medium text-indigo-200">
+                  <div className="font-body text-base font-medium text-slate-200">
                     CEO, Benevolent Senior Services
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Testimonials() {
             />
           </div>
           <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-            <div className="lg:text-2lg font-book relative font-serif text-lg leading-loose text-white md:flex-grow">
+            <div className="lg:text-2lg font-book relative font-serif text-lg leading-loose text-slate-200 md:flex-grow">
               <svg
                 className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-amber-500"
                 fill="currentColor"
@@ -77,7 +77,7 @@ export default function Testimonials() {
             </div>
             <footer className="mt-8">
               <div className="flex items-start">
-                <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
+                <div className="inline-flex flex-shrink-0 rounded-full border-2 border-amber-400">
                   <img
                     className="h-12 w-12 rounded-full"
                     src="https://res.cloudinary.com/gravital-digital/image/upload/v1651514726/john-emery_gigw8a.jpg"
@@ -85,10 +85,10 @@ export default function Testimonials() {
                   />
                 </div>
                 <div className="ml-4">
-                  <div className="font-body text-base font-bold text-white">
+                  <div className="font-body text-base font-bold text-amber-200">
                     John Emery
                   </div>
-                  <div className="font-body text-base font-medium text-indigo-200">
+                  <div className="font-body text-base font-medium text-slate-200">
                     Partner, Preston Studios
                   </div>
                 </div>

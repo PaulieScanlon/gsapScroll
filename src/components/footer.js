@@ -57,8 +57,11 @@ export default function Footer() {
         <div className="mt-8 md:order-3 md:mt-0">
           <div className="flex justify-center font-body text-base font-normal text-sky-500 md:order-3">
             <p>
-              <a className="text-amber-500 hover:text-sky-500" href="/">
-                Style Guide
+              <a className="group text-amber-500 hover:text-sky-500" href="/">
+                <span className="text-sky-500 group-hover:text-amber-500">
+                  Gravital
+                </span>{" "}
+                Styles
               </a>
             </p>
           </div>
@@ -67,11 +70,13 @@ export default function Footer() {
         <div className="mt-8 md:order-4 md:mt-0">
           <div className="text-center font-body text-base font-normal text-sky-500">
             <p>
-              Produced by{" "}
               <a
-                className="text-amber-500 hover:text-sky-500"
+                className="group text-amber-500 hover:text-sky-500"
                 href="https://www.sparker888.com"
               >
+                <span className="text-sky-500 group-hover:text-amber-500">
+                  Produced by
+                </span>{" "}
                 sparker888
               </a>
             </p>

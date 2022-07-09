@@ -50,14 +50,14 @@ export default function Services() {
             aria-hidden="true"
           />
         </div>
-        <div className="max-w-7xl relative mx-auto py-24 px-6 sm:py-32 sm:px-6 lg:px-8">
+        <div className="max-w-7xl relative mx-auto py-16 px-6 sm:py-12 sm:px-6 lg:px-8 lg:py-8">
           <h1 className="mb-5 justify-self-end font-sans text-5xl font-black text-white sm:text-5xl md:justify-self-end md:text-6xl lg:text-8xl">
             Our Services
           </h1>
           <h1 className="mt-4 bg-gradient-to-br from-white to-yellow-500 bg-clip-text font-sans text-4xl font-bold tracking-tight text-transparent sm:mt-5 sm:text-6xl lg:mt-6 xl:text-7xl">
             <span className="block leading-tight">
               Put the power of{" "}
-              <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text font-sans text-4xl font-bold text-transparent sm:text-5xl lg:text-6xl xl:text-7xl">
+              <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text font-sans text-4xl font-bold text-transparent sm:text-6xl xl:text-7xl">
                 JamStack{" "}
               </span>
             </span>
@@ -65,7 +65,7 @@ export default function Services() {
               to work on your next project.
             </span>
           </h1>
-          <p className="max-w-xl mt-6 font-body leading-relaxed text-xl lg:text-2xl text-gray-300 lg:max-w-[50%]">
+          <p className="max-w-xl mt-6 font-body text-xl leading-10 text-gray-300 lg:max-w-[50%] lg:text-2xl">
             Realize the potential of your website to deliver blazing speed,
             higher Google rankings, a great user experience, and higher
             conversion rates. We have the full range of services to support
@@ -95,14 +95,14 @@ export default function Services() {
                     aria-hidden="true"
                   />
                 </div>
-                <h1 className="font-sans text-2xl lg:text-3xl font-bold text-blue-900">
+                <h1 className="font-sans text-2xl font-bold text-blue-900 lg:text-3xl">
                   {link.name}
                 </h1>
-                <h3 className="font-body mt-4 text-slate-50">
+                <h3 className="mt-4 font-body text-slate-50">
                   {link.description}
                 </h3>
               </div>
-              <div className="group rounded-bl-2xl rounded-br-2xl bg-gradient-to-r from-purple-400 via-amber-200 to-amber-300 p-6 text-right md:px-8">
+              <div className="group rounded-bl-2xl rounded-br-2xl bg-gradient-to-r from-red-400 via-amber-200 to-amber-500 p-6 text-right md:px-8">
                 <AnchorLink
                   to={link.href}
                   className="text-bold font-bold text-sky-900 group-hover:text-amber-900"

@@ -6,10 +6,10 @@ import Footer2 from "../components/footer2"
 
 const IndexPage = () => {
   return (
-    <>
+    <div className="bg-slate-600">
       <Header2 />
       <ScrollButton />
-      <section className="bg-white text-center">
+      <section className="bg-slate-600 text-center">
         <div>
           <img
             className="mx-auto max-h-60 pt-12"
@@ -20,7 +20,7 @@ const IndexPage = () => {
         <div className="pt-6 pb-12 font-logo text-7xl font-black tracking-tighter">
           <span className="text-sky-600">Gravital</span>
           <span className="text-amber-600">Digital</span>{" "}
-          <span className="text-sky-600">Branding</span>
+          <span className="text-sky-600">Styles</span>
         </div>
 
         {/* Divider */}
@@ -32,14 +32,14 @@ const IndexPage = () => {
             <div className="w-full border-t border-slate-500" />
           </div>
           <div className="relative flex justify-center">
-            <span className="bg-white py-3 px-3 text-lg font-medium text-slate-900">
+            <span className="bg-amber-300 py-3 px-3 text-lg font-medium text-slate-900">
               FONTS
             </span>
           </div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
+          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-slate-400 pb-6 shadow">
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-logo text-4xl font-bold">
                 <span className="font-bold underline underline-offset-4">
@@ -60,7 +60,7 @@ const IndexPage = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
+          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-slate-400 pb-6 shadow">
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-sans text-4xl font-medium">
                 <span className="underline underline-offset-4">font-sans</span>:
@@ -88,7 +88,7 @@ const IndexPage = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
+          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-slate-400 pb-6 shadow">
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-serif text-4xl font-bold">
                 <span className="font-bold underline underline-offset-4">
@@ -118,7 +118,7 @@ const IndexPage = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
+          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-slate-400 pb-6 shadow">
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-Container font-body text-4xl">
                 <span className="font-bold underline underline-offset-4">
@@ -148,7 +148,7 @@ const IndexPage = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-white pb-6 shadow">
+          <div className="mb-10 divide-y divide-neutral-200 overflow-hidden rounded-lg bg-slate-400 pb-6 shadow">
             <div className="px-4 py-5 sm:px-6">
               <h1 className="font-regular font-mono text-4xl">
                 <span className="font-bold underline underline-offset-4">
@@ -179,8 +179,8 @@ const IndexPage = () => {
       </section>
 
       {/* Subtitle */}
-      <div className="py-12 text-center font-sans text-5xl font-black">
-        Color Palette
+      <div className="bg-slate-600 py-12 text-center font-logo text-7xl font-black tracking-tighter text-amber-500">
+        <span className="text-sky-500">Color</span> Palette
       </div>
 
       {/* Divider */}
@@ -189,14 +189,14 @@ const IndexPage = () => {
           <div className="w-full border-t border-slate-500" />
         </div>
         <div className="relative flex justify-center">
-          <span className="bg-white py-3 px-3 text-lg font-medium text-slate-900">
+          <span className="bg-amber-300 py-3 px-3 text-lg font-medium text-slate-900">
             Neutrals
           </span>
         </div>
       </div>
 
       {/* Color Palette - Slate */}
-      <div className="max-w-7xl mx-auto bg-white py-12 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto bg-slate-400 py-12 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
           These are the colors you will use the most and will make up the
           majority of your UI. Use them for most of your text, backgrounds, and
@@ -317,14 +317,14 @@ const IndexPage = () => {
           <div className="w-full border-t border-slate-500" />
         </div>
         <div className="relative flex justify-center">
-          <span className="bg-white py-3 px-3 text-lg font-medium text-slate-900">
+          <span className="bg-amber-300 py-3 px-3 text-lg font-medium text-slate-900">
             Amber Primary
           </span>
         </div>
       </div>
 
       {/* Color Palette - Primary Amber */}
-      <div className="max-w-7xl mx-auto bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto bg-slate-400 py-12 px-4 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
           These are the splashes of color that should appear the most in your
           UI, and are the ones that determine the overall "look" of the site.
@@ -448,14 +448,14 @@ const IndexPage = () => {
           <div className="w-full border-t border-slate-500" />
         </div>
         <div className="relative flex justify-center">
-          <span className="bg-white py-3 px-3 text-lg font-medium text-slate-900">
+          <span className="bg-amber-300 py-3 px-3 text-lg font-medium text-slate-900">
             Blue Primary
           </span>
         </div>
       </div>
 
       {/* Color Palette - Primary Sky Blues */}
-      <div className="container mx-auto bg-white py-12 sm:px-6 lg:px-8">
+      <div className="container mx-auto bg-slate-400 py-12 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
           These are the splashes of color that should appear the most in your
           UI, and are the ones that determine the overall "look" of the site.
@@ -578,14 +578,14 @@ const IndexPage = () => {
           <div className="w-full border-t border-slate-500" />
         </div>
         <div className="relative flex justify-center">
-          <span className="bg-white py-3 px-3 text-lg font-medium text-slate-900">
+          <span className="bg-amber-300 py-3 px-3 text-lg font-medium text-slate-900">
             Supporting Reds
           </span>
         </div>
       </div>
 
       {/* Color Palette - Supporting Reds */}
-      <div className="container mx-auto bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto bg-slate-400 py-12 px-4 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
           These colors should be used fairly conservatively throughout your UI
           to avoid overpowering your primary colors. Use them when you need an
@@ -705,14 +705,14 @@ const IndexPage = () => {
           <div className="w-full border-t border-slate-500" />
         </div>
         <div className="relative flex justify-center">
-          <span className="bg-white py-3 px-3 text-lg font-medium text-slate-900">
+          <span className="bg-amber-300 py-3 px-3 text-lg font-medium text-slate-900">
             Supporting Purples
           </span>
         </div>
       </div>
 
       {/* Color Palette - Supporting Purples */}
-      <div className="max-w-7xl mx-auto bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto bg-slate-400 py-12 px-4 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
           These colors should be used fairly conservatively throughout your UI
           to avoid overpowering your primary colors. Use them when you need an
@@ -829,7 +829,7 @@ const IndexPage = () => {
         </p>
       </div>
       <Footer2 />
-    </>
+    </div>
   )
 }
 

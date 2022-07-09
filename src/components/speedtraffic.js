@@ -48,21 +48,21 @@ export default function Conversions() {
                       Legacy Stack
                     </h2>
                     <h3 className="my-2 font-sans text-xl text-slate-50 sm:my-6 md:text-2xl lg:mt-2 lg:text-3xl xl:my-5">
-                      Mobile Lighthouse:{" "}
-                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
-                        +63
+                      Mobile Lighthouse Score:{" "}
+                      <span className="text-xl font-bold text-slate-50 md:text-3xl lg:text-4xl">
+                        +63/100
                       </span>
                     </h3>
                     <h3 className="font-sans text-xl text-slate-50 md:text-2xl lg:text-3xl">
-                      Desktop Lighthouse:{" "}
-                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
-                        +35
+                      Desktop Lighthouse Score:{" "}
+                      <span className="text-xl font-bold text-slate-50 md:text-3xl lg:text-4xl">
+                        +35/100
                       </span>
                     </h3>
                   </div>
                   <h2 className="lg:ml-22 my-0 ml-10 text-xl font-bold text-sky-50 sm:my-11 sm:ml-44 sm:text-2xl md:ml-24 lg:my-12 lg:text-3xl xl:ml-10">
                     vs.{" "}
-                    <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-2xl font-black tracking-normal text-transparent sm:text-4xl lg:text-5xl">
+                    <span className="bg-gradient-to-br from-purple-700 to-red-700 bg-clip-text pr-1 font-logo text-2xl font-black tracking-normal text-transparent sm:text-4xl lg:text-5xl">
                       JamStack{" "}
                     </span>
                   </h2>

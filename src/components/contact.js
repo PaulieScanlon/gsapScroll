@@ -31,7 +31,7 @@ export default function Contact() {
                   Digital
                 </span>
               </h2>
-              <p className="font-body max-w-3xl mt-6 font-body text-base text-sky-200">
+              <p className="font-body max-w-3xl mt-6 leading-loose text-base text-sky-200">
                 For quickest response, please use the contact us form. If calling, please leave a message and we'll return your call ASAP. Thank you!
               </p>
               <dl className="mt-8 space-y-6">
@@ -78,7 +78,7 @@ export default function Contact() {
                 <div>
                   <label
                     htmlFor="first-name"
-                    className="text-medium block pl-2 font-medium text-blue-200"
+                    className="text-medium block pl-2 font-medium text-sky-300"
                   >
                     First name
                   </label>
@@ -88,14 +88,14 @@ export default function Contact() {
                       name="first-name"
                       id="first-name"
                       autoComplete="given-name"
-                      className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
+                      className="block w-full rounded-md border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
                     />
                   </div>
                 </div>
                 <div>
                   <label
                     htmlFor="last-name"
-                    className="text-medium block pl-2 font-medium text-blue-200"
+                    className="text-medium block pl-2 font-medium text-sky-300"
                   >
                     Last name
                   </label>
@@ -105,14 +105,14 @@ export default function Contact() {
                       name="last-name"
                       id="last-name"
                       autoComplete="family-name"
-                      className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
+                      className="block w-full rounded-md border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
                     />
                   </div>
                 </div>
                 <div>
                   <label
                     htmlFor="email"
-                    className="text-medium block pl-2 font-medium text-blue-200"
+                    className="text-medium block pl-2 font-medium text-sky-300"
                   >
                     Email
                   </label>
@@ -122,7 +122,7 @@ export default function Contact() {
                       name="email"
                       type="email"
                       autoComplete="email"
-                      className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
+                      className="block w-full rounded-md border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
                     />
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function Contact() {
                   <div className="flex justify-between">
                     <label
                       htmlFor="phone"
-                      className="text-medium block pl-2 font-medium text-blue-200"
+                      className="text-medium block pl-2 font-medium text-sky-300"
                     >
                       Phone
                     </label>
@@ -147,15 +147,15 @@ export default function Contact() {
                       name="phone"
                       id="phone"
                       autoComplete="tel"
-                      className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
-                      aria-describedby="phone-optional"
+                      className="block w-full rounded-md border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
+                      aria-described by="phone-optional"
                     />
                   </div>
                 </div>
                 <div className="sm:col-span-2">
                   <label
                     htmlFor="subject"
-                    className="text-medium block pl-2 font-medium text-blue-200"
+                    className="text-medium block pl-2 font-medium text-sky-300"
                   >
                     Subject
                   </label>
@@ -164,7 +164,7 @@ export default function Contact() {
                       type="text"
                       name="subject"
                       id="subject"
-                      className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
+                      className="block w-full rounded-md border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
                     />
                   </div>
                 </div>
@@ -172,7 +172,7 @@ export default function Contact() {
                   <div className="flex justify-between">
                     <label
                       htmlFor="message"
-                      className="text-medium block pl-2 font-medium text-blue-200"
+                      className="text-medium block pl-2 font-medium text-sky-300"
                     >
                       Message
                     </label>
@@ -188,8 +188,8 @@ export default function Contact() {
                       id="message"
                       name="message"
                       rows={4}
-                      className="block w-full rounded-md border border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
-                      aria-describedby="message-max"
+                      className="block w-full rounded-md border border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
+                      aria-described by="message-max"
                       defaultValue={""}
                     />
                   </div>

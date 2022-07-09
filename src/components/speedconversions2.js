@@ -5,7 +5,7 @@ export default function Conversions() {
   return (
     <div className="max-w-xl container mx-auto my-6 rounded-3xl bg-slate-900 bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657331262/speed-bg-conversions_bbb7no.jpg')] bg-cover bg-right">
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
-        <div className="col-span-1 lg:col-span-2">
+        <div className="col-span-1 lg:col-span-2 order-last md:order-first">
           <div className="md:py-15 lg:pt-25 justify-around pt-0 pb-6 sm:flex md:flex-row">
             <div className="sm:flex-shrink">
               <div className="grid grid-cols-1">
@@ -19,13 +19,13 @@ export default function Conversions() {
                       />
                     </div>
                     <h3 className="my-2 font-sans text-xl text-slate-50 sm:my-6 md:text-2xl lg:mt-2 lg:text-3xl xl:my-5">
-                      Pan Macmillan:{" "}
+                      Pan Macmillan Conversions:{" "}
                       <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
                         +25%
                       </span>
                     </h3>
                     <h3 className="font-sans text-xl text-slate-50 md:text-2xl lg:text-3xl">
-                      Sennheiser:{" "}
+                      Sennheiser Conversions:{" "}
                       <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
                         +137%
                       </span>
