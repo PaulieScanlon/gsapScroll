@@ -10,7 +10,7 @@ export default function Contact() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
-            <div className="relative overflow-hidden rounded-l-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] bg-cover py-10 px-6 sm:px-10 xl:p-12">
+            <div className="relative overflow-hidden rounded-l-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] from-amber-900 to-orange-900 bg-cover py-10 px-6 sm:px-10 xl:p-12">
               <div
                 className="pointer-events-none absolute inset-0 sm:hidden"
                 aria-hidden="true"
@@ -31,8 +31,10 @@ export default function Contact() {
                   Digital
                 </span>
               </h2>
-              <p className="font-body max-w-3xl mt-6 leading-loose text-base text-sky-200">
-                For quickest response, please use the contact us form. If calling, please leave a message and we'll return your call ASAP. Thank you!
+              <p className="max-w-3xl mt-6 font-body text-base leading-loose text-sky-200">
+                For quickest response, please use the contact us form. If
+                calling, please leave a message and we'll return your call ASAP.
+                Thank you!
               </p>
               <dl className="mt-8 space-y-6">
                 <dt>
@@ -43,7 +45,7 @@ export default function Contact() {
                     className="h-6 w-6 flex-shrink-0 text-blue-500"
                     aria-hidden="true"
                   />
-                  <span className="font-body ml-3">407-710-5497</span>
+                  <span className="ml-3 font-body">407-710-5497</span>
                 </dd>
                 <dt>
                   <span className="sr-only">Email</span>
@@ -53,13 +55,13 @@ export default function Contact() {
                     className="h-6 w-6 flex-shrink-0 text-orange-500"
                     aria-hidden="true"
                   />
-                  <span className="font-body ml-3">go@gravitaldigital.com</span>
+                  <span className="ml-3 font-body">go@gravitaldigital.com</span>
                 </dd>
               </dl>
             </div>
 
             {/* Contact form */}
-            <div className="rounded-r-3xl bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] bg-cover bg-right py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+            <div className="rounded-r-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] from-sky-900 to-blue-900 bg-cover bg-right py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <form
                 name="contact"
                 form
@@ -148,7 +150,8 @@ export default function Contact() {
                       id="phone"
                       autoComplete="tel"
                       className="block w-full rounded-md border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
-                      aria-described by="phone-optional"
+                      aria-described
+                      by="phone-optional"
                     />
                   </div>
                 </div>
@@ -189,7 +192,8 @@ export default function Contact() {
                       name="message"
                       rows={4}
                       className="block w-full rounded-md border border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
-                      aria-described by="message-max"
+                      aria-described
+                      by="message-max"
                       defaultValue={""}
                     />
                   </div>
@@ -197,7 +201,7 @@ export default function Contact() {
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
-                    className="font-sans inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
+                    className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 font-sans text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
                   >
                     Send Message
                   </button>
