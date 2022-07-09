@@ -1,17 +1,18 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
-export default function Traffic() {
+export default function Conversions() {
   return (
     <div
       id="speed"
-      className="max-w-xl container mx-auto my-6 rounded-3xl bg-slate-900 bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657066965/contact-background-right-1071x714_fooryd.png')] bg-cover bg-right"
+      className="max-w-xl container mx-auto my-6 rounded-3xl bg-slate-900 bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657331225/speed-bg-traffic_pyz6w4.jpg')] bg-cover bg-right"
     >
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
         <div className="md:col-span-1">
           <div className="pb-0 pt-6 sm:px-6 md:flex md:flex-row md:py-12">
             <div className="sm:flex-shrink">
               <div className="flow-root">
-                <h1 className="text-5xl font-sans font-black text-sky-50 sm:mt-12 md:mt-0 md:text-6xl xl:text-7xl">
+                <h1 className="font-sans text-5xl font-black text-sky-50 sm:mt-12 md:mt-0 md:text-6xl xl:text-7xl">
                   Speed.
                 </h1>
                 <h1 className="mt-5 font-sans text-4xl font-bold text-amber-500 sm:mt-10 lg:mt-20 lg:text-5xl xl:text-6xl 2xl:text-7xl ">
@@ -59,7 +60,7 @@ export default function Traffic() {
                       </span>
                     </h3>
                   </div>
-                  <h2 className="my-0 ml-10 text-xl font-bold text-sky-50 sm:ml-44 md:ml-24 sm:my-11 sm:text-2xl lg:my-12 lg:ml-22 lg:text-3xl xl:ml-10">
+                  <h2 className="lg:ml-22 my-0 ml-10 text-xl font-bold text-sky-50 sm:my-11 sm:ml-44 sm:text-2xl md:ml-24 lg:my-12 lg:text-3xl xl:ml-10">
                     vs.{" "}
                     <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-2xl font-black tracking-normal text-transparent sm:text-4xl lg:text-5xl">
                       JamStack{" "}
