@@ -42,7 +42,7 @@ export default function Contact() {
                 </dt>
                 <dd className="flex text-base text-sky-200">
                   <PhoneIcon
-                    className="h-6 w-6 flex-shrink-0 text-blue-500"
+                    className="h-6 w-6 flex-shrink-0 text-sky-600"
                     aria-hidden="true"
                   />
                   <span className="ml-3 font-body">407-710-5497</span>
@@ -52,7 +52,7 @@ export default function Contact() {
                 </dt>
                 <dd className="flex text-base text-sky-200">
                   <MailIcon
-                    className="h-6 w-6 flex-shrink-0 text-orange-500"
+                    className="h-6 w-6 flex-shrink-0 text-amber-600"
                     aria-hidden="true"
                   />
                   <span className="ml-3 font-body">go@gravitaldigital.com</span>
@@ -201,7 +201,7 @@ export default function Contact() {
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="submit"
-                    className="inline-block rounded-full border border-transparent bg-amber-500 py-2 px-4 font-sans text-base font-medium text-slate-50 transition duration-500 hover:bg-amber-800 hover:text-slate-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
+                    className="inline-block rounded-full border border-transparent bg-sky-600 py-2 px-4 font-sans text-base font-medium text-amber-50 transition duration-500 hover:bg-sky-900 hover:text-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
                   >
                     Send Message
                   </button>
