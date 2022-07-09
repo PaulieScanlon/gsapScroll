@@ -24,10 +24,10 @@ export default function Zerocosts() {
                   CDN at scale / mo.
                 </h2>
                 <h1 className="lg:mt-15 mt-3 font-sans text-3xl font-bold text-red-500 sm:mt-7 sm:text-4xl lg:text-5xl">
-                  40%
+                  ~40%
                 </h1>
                 <h2 className="font-regular mt-2 font-sans text-2xl text-slate-50 sm:text-3xl lg:text-4xl">
-                  savings on IT budget
+                  IT budget just for upgrades
                 </h2>
               </div>
             </div>

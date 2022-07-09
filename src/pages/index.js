@@ -179,8 +179,8 @@ const IndexPage = () => {
       </section>
 
       {/* Subtitle */}
-      <div className="bg-slate-600 py-12 text-center font-logo text-7xl font-black tracking-tighter text-amber-500">
-        <span className="text-sky-500">Color</span> Palette
+      <div className="bg-slate-600 py-12 text-center font-logo text-7xl font-black tracking-tighter text-amber-600">
+        <span className="text-sky-600">Color</span> Palette
       </div>
 
       {/* Divider */}

@@ -49,13 +49,13 @@ export default function Conversions() {
                     </h2>
                     <h3 className="my-2 font-sans text-xl text-slate-50 sm:my-6 md:text-2xl lg:mt-2 lg:text-3xl xl:my-5">
                       Mobile Lighthouse Score:{" "}
-                      <span className="text-xl font-bold text-slate-50 md:text-3xl lg:text-4xl">
+                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
                         +63/100
                       </span>
                     </h3>
                     <h3 className="font-sans text-xl text-slate-50 md:text-2xl lg:text-3xl">
                       Desktop Lighthouse Score:{" "}
-                      <span className="text-xl font-bold text-slate-50 md:text-3xl lg:text-4xl">
+                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
                         +35/100
                       </span>
                     </h3>
