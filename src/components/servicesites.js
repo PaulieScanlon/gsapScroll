@@ -8,19 +8,19 @@ import {
 
 const supportLinks = [
   {
-    name: "Rachio 400x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656474116/youfit_iabwiu.avif",
+    name: "Benevolent Senior Services",
+    href: "https://benevolentseniorservices.netlify.app/",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657376515/bss-bottom_cjvdlw.jpg",
   },
   {
-    name: "Rachio 450x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "Blue Cross and Blue Shield of Minnesota",
+    href: "https://www.bluecrossmn.com/",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657376961/blue-cross-bottom_ywcbje.jpg",
   },
   {
-    name: "Rachio 450x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "UP42 Geospacial Data and Processing",
+    href: "https://up42.com/",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657378283/up42_e8hk1k.jpg",
   },
 ]
 
@@ -30,23 +30,23 @@ export default function Servicesites() {
     <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
       <div className="max-w-md sm:max-w-3xl lg:max-w-7xl mx-auto px-4 pt-6 text-center sm:px-6 lg:px-8">
         <div>
-          <h2 className="font-regular my-6 text-base uppercase tracking-wider text-purple-500">
-            Gatsby Showcase
+          <h2 className="my-6 bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text font-logo font-bold uppercase tracking-wider text-transparent">
+            JamStack Showcase
           </h2>
           <p className="lg:text6xl mt-2 font-serif text-4xl font-bold tracking-tight text-slate-50 sm:text-5xl">
             Service Platforms
           </p>
-          <p className="max-w-prose mx-auto mt-5 px-20 text-xl text-slate-50 sm:px-40 md:px-60">
-            Phasellus lorem quam molestie id quisque diam aenean nulla in.
-            Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-            condimentum id viverra nulla.
+          <p className="max-w-prose mx-auto mt-5 px-20 font-body text-xl text-slate-50 sm:px-40 md:px-60">
+            JamStack is a perfect choice for service companies that need to pull
+            in data from a wide range of service APIs and deliver content to
+            customers quickly, securely and with near 100% uptime.
           </p>
         </div>
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-12">
           <img
             className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656474105/firefox_A8ZdeZHtO7_ylu9jw.jpg"
-            alt="YouFit"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657376017/vizient-top_dzaxxz.jpg"
+            alt="Vizient"
           />
         </div>
       </div>

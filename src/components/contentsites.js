@@ -8,19 +8,19 @@ import {
 
 const supportLinks = [
   {
-    name: "Rachio 400x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "Science Museum of Minnesota",
+    href: "https://new.smm.org/",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657369529/science-museum-bottom_wztyie.jpg",
   },
   {
-    name: "Rachio 450x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "Patreon Blog",
+    href: "https://blog.patreon.com//",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657367739/patreon-blog-bottom_kmeduw.jpg",
   },
   {
-    name: "Rachio 450x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "Cloudflare Developer Docs",
+    href: "https://developers.cloudflare.com//",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657370305/cloudflare-bottom_cwmk6i.jpg",
   },
 ]
 
@@ -33,23 +33,23 @@ export default function Contentsites() {
     >
       <div className="max-w-md sm:max-w-3xl lg:max-w-7xl mx-auto px-4 pt-6 text-center sm:px-6 lg:px-8">
         <div>
-          <h2 className="font-regular my-6 text-base uppercase tracking-wider text-purple-500">
-            Gatsby Showcase
+          <h2 className="my-6 bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text font-logo font-bold uppercase tracking-wider text-transparent">
+            JamStack Showcase
           </h2>
           <p className="lg:text6xl mt-2 font-serif text-4xl font-bold tracking-tight text-slate-50 sm:text-5xl">
             Content Platforms
           </p>
-          <p className="max-w-prose mx-auto mt-5 px-20 text-xl text-slate-50 sm:px-40 md:px-60">
-            Phasellus lorem quam molestie id quisque diam aenean nulla in.
-            Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-            condimentum id viverra nulla.
+          <p className="max-w-prose mx-auto mt-5 px-20 font-body text-xl text-slate-50 sm:px-40 md:px-60">
+            Content platforms benefit greatly from JamStack's ability to source
+            content from almost anywhere making it easy for publishers to edit,
+            publish and unpublish on demand.
           </p>
         </div>
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-12">
           <img
             className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656462696/firefox_aipJchnuL2_exmy5n.png"
-            alt="National Geographic UK"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657367730/patreon-blog-top_nvfm60.jpg"
+            alt="Patreon Blog Homepage"
           />
         </div>
       </div>

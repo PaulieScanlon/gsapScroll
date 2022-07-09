@@ -8,19 +8,19 @@ import {
 
 const supportLinks = [
   {
-    name: "Rachio 400x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "Preston Studios",
+    href: "https://prestonstudios.com/",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657374725/preston-studios-bottom_kphnvm.jpg",
   },
   {
-    name: "Rachio 450x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "Little Caesars",
+    href: "https://littlecaesars.com/en-us/",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657372307/little-caesars-bottom_ghcfz0.jpg",
   },
   {
-    name: "Rachio 450x300",
-    href: "https://rachio.com/",
-    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1656469374/rachio-450x300_yn4xql.jpg",
+    name: "Bear Archery",
+    href: "https://www.beararchery.com/",
+    img: "https://res.cloudinary.com/gravital-digital/image/upload/v1657374295/bear-archery-bottom_ezprv2.jpg",
   },
 ]
 
@@ -30,23 +30,23 @@ export default function Ecommsites() {
     <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
       <div className="max-w-md sm:max-w-3xl lg:max-w-7xl mx-auto px-4 pt-6 text-center sm:px-6 lg:px-8">
         <div>
-          <h2 className="font-regular my-6 text-base uppercase tracking-wider text-purple-500">
-            Gatsby Showcase
+          <h2 className="my-6 bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text font-logo font-bold uppercase tracking-wider text-transparent">
+            JamStack Showcase
           </h2>
           <p className="lg:text6xl mt-2 font-serif text-4xl font-bold tracking-tight text-slate-50 sm:text-5xl">
-            E-commerce Platforms
+            Ecommerce Platforms
           </p>
-          <p className="max-w-prose mx-auto mt-5 px-20 text-xl text-slate-50 sm:px-40 md:px-60">
-            Phasellus lorem quam molestie id quisque diam aenean nulla in.
-            Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-            condimentum id viverra nulla.
+          <p className="max-w-prose mx-auto mt-5 px-20 font-body text-xl text-slate-50 sm:px-40 md:px-60">
+            Speed is essential on Ecommerce sites. Studies have consistently
+            shown that fast page speed will result in a better conversion rate.
+            47% expect the page to load in 2 seconds or less.
           </p>
         </div>
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-12">
           <img
             className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1656473821/firefox_xi8en4A5ZO_qxxssl.png"
-            alt="Little Caesars"
+            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657375237/uag-top_jzfss2.jpg"
+            alt="UAB by https://www.vincit.com/"
           />
         </div>
       </div>
