@@ -10,7 +10,7 @@ export default function Contact() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
-            <div className="relative overflow-hidden rounded-l-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] from-amber-900 to-orange-900 bg-cover py-10 px-6 sm:px-10 xl:p-12">
+            <div className="relative overflow-hidden rounded-l-3xl bg-gradient-to-t bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] from-slate-900 to-sky-900 bg-cover py-10 px-6 sm:px-10 xl:p-12">
               <div
                 className="pointer-events-none absolute inset-0 sm:hidden"
                 aria-hidden="true"
@@ -61,7 +61,7 @@ export default function Contact() {
             </div>
 
             {/* Contact form */}
-            <div className="rounded-r-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] from-sky-900 to-blue-900 bg-cover bg-right py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+            <div className="rounded-r-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] from-orange-900 to-amber-800 bg-cover bg-right py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <form
                 name="contact"
                 form
