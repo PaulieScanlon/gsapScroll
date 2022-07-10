@@ -57,7 +57,7 @@ export default function Footer() {
         <div className="mt-8 md:order-3 md:mt-0">
           <div className="flex justify-center font-body text-base font-normal text-sky-500 md:order-3">
             <p>
-              <a className="group text-amber-500 hover:text-sky-500" href="/">
+              <a className="group text-amber-500 hover:text-sky-500" href="../gravital-digital-style-guide/">
                 <span className="text-sky-500 group-hover:text-amber-500">
                   Gravital
                 </span>{" "}

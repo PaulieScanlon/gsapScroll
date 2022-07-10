@@ -4,10 +4,10 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = [
-  { name: "Speed", href: "/layout1/#speed" },
-  { name: "Flexibility", href: "/layout1/#flexibility" },
-  { name: "Reliability", href: "/layout1/#reliability" },
-  { name: "Services", href: "/layout1/#services" },
+  { name: "Speed", href: "../jamstack-website-developers/#speed" },
+  { name: "Flexibility", href: "../jamstack-website-developers/#flexibility" },
+  { name: "Reliability", href: "../jamstack-website-developers/#reliability" },
+  { name: "Services", href: "../jamstack-website-developers/#services" },
 ]
 
 export default function Header() {
@@ -19,7 +19,7 @@ export default function Header() {
       >
         <div className="flex w-full items-center justify-between border-b border-slate-700 py-3 lg:border-none">
           <div className="flex items-center">
-            <a href="/layout1/">
+            <a href="/jamstack-website-developers/">
               <span className="sr-only font-logo">Gravital Digital</span>
               <img
                 className="h-10 w-auto"
@@ -47,14 +47,14 @@ export default function Header() {
               </h2>
             </div>
             <AnchorLink
-              to="/layout1/#showcase"
+              to="../jamstack-website-developers/#showcase"
               title="Showcase"
               className="sm:content hidden rounded-full border border-transparent bg-sky-600 py-2 px-4 font-sans text-base font-normal text-amber-50 transition duration-500 hover:bg-sky-900 hover:text-amber-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
             >
               Showcase
             </AnchorLink>
             <AnchorLink
-              to="/layout1/#contact"
+              to="../jamstack-website-developers/#contact"
               title="Contact"
               className="inline-block rounded-full border border-transparent bg-amber-600 py-2 px-4 font-sans text-base font-normal text-sky-50 transition duration-500 hover:bg-amber-900 hover:text-sky-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
             >

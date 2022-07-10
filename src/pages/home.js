@@ -29,7 +29,7 @@ import Services from "../components/services"
 import Testimonials from "../components/testimonials"
 import Contact from "../components/contact"
 
-const Layout1 = () => {
+const Home = () => {
   return (
     <Layout>
       <>
@@ -64,4 +64,4 @@ const Layout1 = () => {
   )
 }
 
-export default Layout1
+export default Home
