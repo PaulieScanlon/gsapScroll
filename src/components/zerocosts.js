@@ -12,7 +12,7 @@ export default function Zerocosts() {
     graphql`
       query {
         backgroundImageZeroCosts: file(
-          relativePath: { eq: "1600-purple-background.jpg" }
+          relativePath: { eq: "reliability-1550-bg.jpg" }
         ) {
           childImageSharp {
             gatsbyImageData(

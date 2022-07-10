@@ -12,7 +12,7 @@ export default function Contentanywhere() {
     graphql`
       query {
         backgroundImageContent: file(
-          relativePath: { eq: "flexibility-content.jpg" }
+          relativePath: { eq: "flexibility-content-1550-bg.jpg" }
         ) {
           childImageSharp {
             gatsbyImageData(

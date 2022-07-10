@@ -13,7 +13,7 @@ const { backgroundImageServices } = useStaticQuery(
   graphql`
     query {
       backgroundImageServices: file(
-        relativePath: { eq: "flexibility-services.jpg" }
+        relativePath: { eq: "flexibility-services-1550-bg.jpg" }
       ) {
         childImageSharp {
           gatsbyImageData(
