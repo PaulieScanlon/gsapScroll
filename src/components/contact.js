@@ -27,14 +27,14 @@ export default function Contact() {
   const pluginImage = getImage(backgroundImageContact)
 
   return (
-    <BgImage image={pluginImage} id="contact">
+    <div className="bg-black" id="contact">
       <div className="max-w-xl container mx-auto rounded-3xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="relative rounded-3xl bg-slate-700 shadow-xl">
           <h2 className="sr-only">Contact us</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
-            <div className="relative overflow-hidden rounded-l-3xl bg-gradient-to-t bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] from-slate-900 to-sky-900 bg-cover py-10 px-6 sm:px-10 xl:p-12">
+            <div className="relative overflow-hidden rounded-l-3xl bg-gradient-to-t from-slate-900 to-sky-900 bg-cover py-10 px-6 sm:px-10 xl:p-12">
               <div
                 className="pointer-events-none absolute inset-0 sm:hidden"
                 aria-hidden="true"
@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
 
             {/* Contact form */}
-            <div className="rounded-r-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977680/orange-background-lt-right_csemyb.jpg')] from-slate-900 to-fuchsia-900 bg-cover bg-right py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+            <BgImage image={pluginImage} className="rounded-r-3xl  py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
               <form
                 name="contact"
                 form
@@ -231,10 +231,10 @@ export default function Contact() {
                   </button>
                 </div>
               </form>
-            </div>
+            </BgImage>
           </div>
         </div>
       </div>
-    </BgImage>
+    </div>
   )
 }
