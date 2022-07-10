@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
 
-/ /jamstack-website-developers/
+/* /jamstack-website-developers/ 301
 
-/index /jamstack-website-developers/
+/index /jamstack-website-developers/ 301
