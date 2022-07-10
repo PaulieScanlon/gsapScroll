@@ -1,9 +1,33 @@
-import React from "react"
+import * as React from "react"
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline"
+import { useStaticQuery, graphql } from "gatsby"
+import { getImage } from "gatsby-plugin-image"
+
+import { BgImage } from "gbimage-bridge" // BgImage is a wrapper for gbimage-bridge
+
+/* This bridge is fix until Gatsby gets BgImage working directly with gatsby-plugin-image again */
 
 export default function Contact() {
+  const { backgroundImageContact } = useStaticQuery(
+    graphql`
+      query {
+        backgroundImageContact: file(relativePath: { eq: "contact-bg.jpg" }) {
+          childImageSharp {
+            gatsbyImageData(
+              width: 1071
+              quality: 50
+              webpOptions: { quality: 70 }
+            )
+          }
+        }
+      }
+    `
+  )
+
+  const pluginImage = getImage(backgroundImageContact)
+
   return (
-    <div className="bg-black" id="contact">
+    <BgImage image={pluginImage} id="contact">
       <div className="max-w-xl container mx-auto rounded-3xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="relative rounded-3xl bg-slate-700 shadow-xl">
           <h2 className="sr-only">Contact us</h2>
@@ -211,6 +235,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </BgImage>
   )
 }

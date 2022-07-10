@@ -1,11 +1,38 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 
-export default function Conversions() {
+import { useStaticQuery, graphql } from "gatsby"
+import { getImage } from "gatsby-plugin-image"
+
+import { BgImage } from "gbimage-bridge" // BgImage is a wrapper for gbimage-bridge
+
+/* This bridge is fix until Gatsby gets BgImage working directly with gatsby-plugin-image again */
+
+export default function Traffic() {
+
+const { backgroundImageTraffic } = useStaticQuery(
+  graphql`
+    query {
+      backgroundImageTraffic: file(
+        relativePath: { eq: "speed-bg-traffic.jpg" }
+      ) {
+        childImageSharp {
+          gatsbyImageData(
+            width: 1550
+            quality: 50
+            webpOptions: { quality: 70 }
+          )
+        }
+      }
+    }
+  `
+)
+
+const pluginImage = getImage(backgroundImageTraffic)
+
   return (
-    <div
+    <BgImage image={pluginImage}
       id="speed"
-      className="max-w-xl container mx-auto my-6 rounded-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1657331225/speed-bg-traffic_pyz6w4.jpg')] from-slate-900 to-fuchsia-900 bg-cover bg-right"
+      className="max-w-xl container mx-auto my-6 rounded-3xl"
     >
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
         <div className="md:col-span-1">
@@ -82,6 +109,10 @@ export default function Conversions() {
           </div>
         </div>
       </div>
-    </div>
+    </BgImage>
   )
 }
+
+
+
+

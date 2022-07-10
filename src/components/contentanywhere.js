@@ -1,10 +1,38 @@
 import * as React from "react"
 
-export default function Benefits() {
+import { useStaticQuery, graphql } from "gatsby"
+import { getImage } from "gatsby-plugin-image"
+
+import { BgImage } from "gbimage-bridge" // BgImage is a wrapper for gbimage-bridge
+
+/* This bridge is fix until Gatsby gets BgImage working directly with gatsby-plugin-image again */
+
+export default function Contentanywhere() {
+  const { backgroundImageContent } = useStaticQuery(
+    graphql`
+      query {
+        backgroundImageContent: file(
+          relativePath: { eq: "flexibility-content.jpg" }
+        ) {
+          childImageSharp {
+            gatsbyImageData(
+              width: 1071
+              quality: 50
+              webpOptions: { quality: 70 }
+            )
+          }
+        }
+      }
+    `
+  )
+
+  const pluginImage = getImage(backgroundImageContent)
+
   return (
-    <div
+    <BgImage
+      image={pluginImage}
       id="flexibility"
-      className="max-w-xl container mx-auto mb-6 mt-6 rounded-3xl bg-gradient-to-r bg-[url('https://res.cloudinary.com/gravital-digital/image/upload/v1656977320/blue-background-lt-right_tq1sdp.jpg')] from-slate-900 to-sky-900 bg-cover"
+      className="max-w-xl container mx-auto my-6 rounded-3xl"
     >
       <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pl-16 xl:grid-cols-3">
         <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 py-12 md:col-span-1 lg:py-24">
@@ -41,6 +69,6 @@ export default function Benefits() {
           </div>
         </div>
       </div>
-    </div>
+    </BgImage>
   )
 }
