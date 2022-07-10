@@ -30,9 +30,10 @@ const { backgroundImageConversions } = useStaticQuery(
 const pluginImage = getImage(backgroundImageConversions)
 
   return (
-    <BgImage image={pluginImage}
+    <BgImage
+      image={pluginImage}
       id="speed"
-      className="max-w-xl container mx-auto my-6 rounded-3xl"
+      className="max-w-xl container mx-auto my-6 overflow-hidden rounded-3xl"
     >
       <div className="grid grid-cols-1 gap-y-6 gap-x-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 lg:px-8 xl:grid-cols-3">
         <div className="order-last col-span-1 md:order-first lg:col-span-2">

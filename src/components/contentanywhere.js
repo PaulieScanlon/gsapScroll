@@ -32,7 +32,7 @@ export default function Contentanywhere() {
     <BgImage
       image={pluginImage}
       id="flexibility"
-      className="max-w-xl container mx-auto my-6 rounded-3xl"
+      className="max-w-xl container mx-auto my-6 overflow-hidden rounded-3xl"
     >
       <div className="grid grid-cols-1 gap-x-6 py-6 sm:py-8 md:grid-cols-1 md:py-10 lg:grid-cols-3 lg:gap-x-8 lg:py-0 lg:pl-16 xl:grid-cols-3">
         <div className="grid-row-2 2xl:py-62 min-h-full auto-rows-min px-8 py-12 md:col-span-1 lg:py-24">

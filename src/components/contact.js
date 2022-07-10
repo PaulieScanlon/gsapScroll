@@ -56,8 +56,8 @@ export default function Contact() {
                 </span>
               </h2>
               <p className="max-w-3xl mt-6 font-body text-base leading-loose text-sky-200">
-                For quickest response, please use the contact us form. If
-                calling, please leave a message and we'll return your call ASAP.
+                For the quickest response, please use this contact form. If
+                calling, please leave a message and we'll get back to you ASAP.
                 Thank you!
               </p>
               <dl className="mt-8 space-y-6">
@@ -85,7 +85,10 @@ export default function Contact() {
             </div>
 
             {/* Contact form */}
-            <BgImage image={pluginImage} className="rounded-r-3xl  py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+            <BgImage
+              image={pluginImage}
+              className="overflow-hidden rounded-r-3xl py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12"
+            >
               <form
                 name="contact"
                 form
