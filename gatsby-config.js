@@ -10,7 +10,7 @@ module.exports = {
     locale: `en`,
     title: `Gravital Digital | Website Developers`,
     titleTemplate: `Gravital Digital | Website Developers`,
-    description: `Blazing fast websites using Jamstack - Next.js, Gatsby, WordPress, Drupal.`,
+    description: `Blazing fast websites powered by Jamstack.`,
     siteUrl: `https://www.gravitaldigital.com`, // No trailing slash allowed!
     twitterUsername: `@gogravital`,
     publicURL: `/rocket-social-card.jpg`, // This will be the default 'social' image for social media shares (in the static folder)
