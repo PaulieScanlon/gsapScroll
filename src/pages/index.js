@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 import ScrollButton from "../components/scrollup"
 import Hero from "../components/hero"
 import Potential from "../components/potential"
@@ -8,11 +9,8 @@ import Speed from "../components/speed"
 import Flexibility from "../components/flexibility"
 import Reliability from "../components/reliability"
 import Webuild from "../components/webuild"
-import Grid2Equal from "../components/grid2equal"
-import Grid2left1right from "../components/grid2left1right"
-import Grid1left2right from "../components/grid1left2right"
 import Traffic from "../components/speedtraffic"
-import Conversions from "../components/speedconversions2"
+import Conversions from "../components/speedconversions"
 import Servicesanywhere from "../components/servicesanywhere"
 import Contentanywhere from "../components/contentanywhere"
 import Perfectmarketers from "../components/perfectmarketers"
@@ -32,7 +30,8 @@ import Contact from "../components/contact"
 const Home = () => {
   return (
     <Layout>
-      <>
+    <>
+      <Seo />
         <div className="max-w-xl bg-black">
           <Hero className="z-index-2" />
           <ScrollButton />

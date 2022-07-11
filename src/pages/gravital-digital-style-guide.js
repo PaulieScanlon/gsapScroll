@@ -4,7 +4,7 @@ import Header2 from "../components/header2"
 import ScrollButton from "../components/scrollup"
 import Footer2 from "../components/footer2"
 
-const IndexPage = () => {
+const StyleGuide = () => {
   return (
     <div className="bg-slate-600">
       <Header2 />
@@ -833,4 +833,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default StyleGuide
