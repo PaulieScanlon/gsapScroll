@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Header2 from "../components/header2"
 import ScrollButton from "../components/scrollup"
 import Footer2 from "../components/footer2"

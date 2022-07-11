@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { ArrowCircleDownIcon } from "@heroicons/react/solid"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
@@ -13,7 +12,7 @@ export default function Hero3() {
       <div className="relative sm:overflow-hidden">
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
           <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">
-            <span className="block pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl lg:text-7xl xl:text-8xl">
+            <span className="pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl lg:text-7xl xl:text-8xl">
               Flexibility.
             </span>
           </h1>
@@ -45,11 +44,7 @@ export default function Hero3() {
             </span>
             flexibility makes{" "}
             <span className="font-body text-2xl font-bold text-amber-300 xl:text-3xl">
-              '
-            </span>
-            content & services from anywhere
-            <span className="font-body text-2xl font-bold text-amber-300 xl:text-3xl">
-              '
+              'content & services from anywhere'
             </span>{" "}
             possible.
           </h3>
