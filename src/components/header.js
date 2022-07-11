@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 /* This example requires Tailwind CSS v2.0+ */
@@ -33,7 +32,7 @@ export default function Header() {
                   key={link.name}
                   title={link.name}
                   to={link.href}
-                  className="font-body text-base font-bold text-blue-500 hover:text-amber-500"
+                  className="py-2 font-body text-base font-bold text-blue-500 hover:text-amber-500"
                 >
                   {link.name}
                 </AnchorLink>
@@ -49,7 +48,7 @@ export default function Header() {
             <AnchorLink
               to="#showcase"
               title="Showcase"
-              className="sm:content hidden rounded-full border border-transparent bg-sky-600 py-2 px-4 font-sans text-base font-normal text-amber-50 transition duration-500 hover:bg-sky-900 hover:text-amber-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
+              className="sm:content hidden rounded-full border border-transparent bg-sky-600 py-2 px-4 font-sans text-base font-normal text-slate-50 transition duration-500 hover:bg-sky-900 hover:text-amber-200 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 sm:inline-block sm:w-auto"
             >
               Showcase
             </AnchorLink>
@@ -68,7 +67,7 @@ export default function Header() {
               key={link.name}
               title={link.name}
               to={link.href}
-              className="font-body text-base font-bold text-sky-600 hover:text-amber-600"
+              className="py-2 font-body text-base font-bold text-sky-500 hover:text-amber-600"
             >
               {link.name}
             </AnchorLink>

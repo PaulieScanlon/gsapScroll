@@ -1,8 +1,5 @@
 import * as React from "react"
 import {
-  NewspaperIcon,
-  PhoneIcon,
-  SupportIcon,
   LinkIcon,
 } from "@heroicons/react/outline"
 
@@ -58,7 +55,6 @@ export default function Ecommsites() {
         aria-labelledby="contact-heading"
       >
         <ul
-          role="list"
           className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
         >
           {supportLinks.map(link => (
@@ -67,6 +63,7 @@ export default function Ecommsites() {
                 <a
                   href={link.href}
                   className="font-serif text-xl font-bold text-slate-200 transition-colors duration-200 group-hover:text-slate-800"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <div className="aspect-w-3 aspect-h-2">

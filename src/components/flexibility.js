@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { ArrowCircleDownIcon } from "@heroicons/react/solid"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
@@ -13,7 +12,7 @@ export default function Hero3() {
       <div className="relative sm:overflow-hidden">
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
           <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">
-            <span className="block pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl lg:text-7xl xl:text-8xl">
+            <span className="pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl lg:text-7xl xl:text-8xl">
               Flexibility.
             </span>
           </h1>
@@ -27,7 +26,7 @@ export default function Hero3() {
                   <img
                     className="h-300 mx-auto"
                     src="https://res.cloudinary.com/gravital-digital/image/upload/v1656296874/flexibility-final-240_qqeskq.jpg"
-                    alt="People working on laptops"
+                    alt="Flexibility"
                   />
                 </span>
               </div>
@@ -45,24 +44,20 @@ export default function Hero3() {
             </span>
             flexibility makes{" "}
             <span className="font-body text-2xl font-bold text-amber-300 xl:text-3xl">
-              '
-            </span>
-            content & services from anywhere
-            <span className="font-body text-2xl font-bold text-amber-300 xl:text-3xl">
-              '
+              'content & services from anywhere'
             </span>{" "}
             possible.
           </h3>
           <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
               <AnchorLink
-                to="./#flexibility"
+                to="#flexibility"
                 title="Flexibility"
-                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 pr-1 font-body text-base font-bold text-slate-50 shadow-xl shadow-purple-700/30 transition-colors duration-700 hover:bg-amber-600 hover:text-slate-50 hover:shadow-amber-700/30 sm:px-8"
+                className="group flex items-center justify-center rounded-full border border-transparent bg-purple-600 px-4 py-3 pr-1 font-body text-base font-bold text-white shadow-xl shadow-purple-700/30 transition-colors duration-700 hover:bg-amber-600 hover:text-white hover:shadow-amber-700/30 sm:px-8"
               >
                 <span className="mr-1">FLEXIBILITY</span>
                 <span>
-                  <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-slate-50" />
+                  <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-white" />
                 </span>
               </AnchorLink>
             </div>

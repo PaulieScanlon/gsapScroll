@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { ArrowCircleDownIcon } from "@heroicons/react/solid"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
@@ -13,7 +12,7 @@ export default function Speed() {
       <div className="relative sm:overflow-hidden">
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
           <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">
-            <span className="block pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl lg:text-7xl xl:text-8xl">
+            <span className="pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl lg:text-7xl xl:text-8xl">
               Speed.
             </span>
           </h1>
@@ -27,7 +26,7 @@ export default function Speed() {
                   <img
                     className="h-240 mx-auto"
                     src="https://res.cloudinary.com/gravital-digital/image/upload/v1656296469/speed-final-240_tkkamc.jpg"
-                    alt="People working on laptops"
+                    alt="Speed"
                   />
                 </span>
               </div>
@@ -37,7 +36,7 @@ export default function Speed() {
 
         <div className="relative px-4 py-2 sm:px-8 sm:py-6 lg:py-10 lg:px-8">
           <h3 className="mt-6 text-center font-body text-xl font-bold italic text-slate-200 sm:text-xl lg:text-2xl xl:text-3xl">
-            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-2xl lg:text-3xl font-black tracking-normal text-transparent">
+            <span className="bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text pr-1 font-logo text-2xl font-black tracking-normal text-transparent lg:text-3xl">
               JamStack{" "}
             </span>
             gives us the tools needed to push site performance to
@@ -48,18 +47,18 @@ export default function Speed() {
           <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
               <AnchorLink
-                to="./#speed"
+                to="#speed"
                 title="Speed"
                 className="font-2xl group flex items-center justify-center
                 rounded-full border border-transparent bg-sky-600 px-4 py-3
-                pr-1 font-body text-base font-bold text-slate-50 shadow-xl
+                pr-1 font-body text-base font-bold text-white shadow-xl
                 shadow-sky-700/30 transition-colors duration-700
-                hover:bg-pink-500 hover:text-slate-50
+                hover:bg-pink-500 hover:text-white
                 hover:shadow-pink-700/30 sm:px-8"
               >
                 <span className="mr-1">SPEED</span>
                 <span></span>
-                <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-slate-50" />
+                <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-white" />
               </AnchorLink>
             </div>
           </div>

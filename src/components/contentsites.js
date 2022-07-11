@@ -1,10 +1,5 @@
 import * as React from "react"
-import {
-  NewspaperIcon,
-  PhoneIcon,
-  SupportIcon,
-  LinkIcon,
-} from "@heroicons/react/outline"
+import { LinkIcon } from "@heroicons/react/outline"
 
 const supportLinks = [
   {
@@ -56,16 +51,14 @@ export default function Contentsites() {
         className="max-w-7xl relative z-10 mx-auto -mt-8 px-4 pb-8 sm:-mt-12 sm:px-6 lg:-mt-16 lg:px-8"
         aria-labelledby="contact-heading"
       >
-        <ul
-          role="list"
-          className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
-        >
+        <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
           {supportLinks.map(link => (
             <li key={link.name}>
               <div className="rounded-br-2x l group grid grid-cols-1 gap-y-4 space-y-4 rounded-bl-2xl bg-slate-500 p-4 transition-colors duration-500 hover:bg-slate-400 md:px-8">
                 <a
                   href={link.href}
                   className="font-serif text-xl font-bold text-slate-200 transition-colors duration-200 group-hover:text-slate-800"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <div className="aspect-w-3 aspect-h-2">

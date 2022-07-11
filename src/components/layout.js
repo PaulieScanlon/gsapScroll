@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { MDXProvider } from "@mdx-js/react"
 import Header from "./header"
 import Footer from "./footer"
 

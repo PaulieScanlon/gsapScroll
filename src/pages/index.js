@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ScrollButton from "../components/scrollup"
@@ -64,3 +63,7 @@ const Home = () => {
 }
 
 export default Home
+
+{/* TemplateWrapper.propTypes = {
+  children: PropTypes.node,
+} */}
