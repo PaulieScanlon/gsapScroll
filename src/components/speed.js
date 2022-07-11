@@ -2,9 +2,7 @@ import * as React from "react"
 import { ArrowCircleDownIcon } from "@heroicons/react/solid"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
-{
   /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
-}
 
 export default function Speed() {
   return (

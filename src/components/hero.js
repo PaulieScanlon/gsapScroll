@@ -1,8 +1,6 @@
 import * as React from "react"
 
-{
   /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
-}
 
 export default function Hero3() {
   return (

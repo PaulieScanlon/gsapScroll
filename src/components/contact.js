@@ -177,8 +177,7 @@ export default function Contact() {
                       id="phone"
                       autoComplete="tel"
                       className="block w-full rounded-md border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
-                      aria-describedby
-                      by="phone-optional"
+                      aria-describedby="phone-optional"
                     />
                   </div>
                 </div>
@@ -219,8 +218,7 @@ export default function Contact() {
                       name="message"
                       rows={4}
                       className="block w-full rounded-md border border-slate-400 py-3 px-4 text-slate-900 shadow-sm focus:border-amber-400 focus:ring-amber-400"
-                      aria-describedby
-                      by="message-max"
+                      aria-describedby="message-max"
                       defaultValue={""}
                     />
                   </div>
