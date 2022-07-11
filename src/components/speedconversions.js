@@ -51,13 +51,13 @@ const pluginImage = getImage(backgroundImageConversions)
                     </div>
                     <h3 className="my-2 font-sans text-xl text-slate-50 sm:my-6 md:text-2xl lg:mt-2 lg:text-3xl xl:my-5">
                       Pan Macmillan Conversions:{" "}
-                      <span className="text-xl font-bold text-purple-900 md:text-3xl lg:text-4xl">
+                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
                         +25%
                       </span>
                     </h3>
                     <h3 className="font-sans text-xl text-slate-50 md:text-2xl lg:text-3xl">
                       Sennheiser Conversions:{" "}
-                      <span className="text-xl font-bold text-purple-900 md:text-3xl lg:text-4xl">
+                      <span className="text-xl font-bold text-amber-500 md:text-3xl lg:text-4xl">
                         +137%
                       </span>
                     </h3>

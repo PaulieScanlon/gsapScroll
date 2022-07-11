@@ -63,3 +63,7 @@ const Home = () => {
 }
 
 export default Home
+
+{/* TemplateWrapper.propTypes = {
+  children: PropTypes.node,
+} */}

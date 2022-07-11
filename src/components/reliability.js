@@ -26,7 +26,7 @@ export default function Reliability() {
                   <img
                     className="h-260 mx-auto"
                     src="https://res.cloudinary.com/gravital-digital/image/upload/v1656296903/reliability-final-240_ayaojl.jpg"
-                    alt="People working on laptops"
+                    alt="Reliability"
                   />
                 </span>
               </div>
@@ -48,13 +48,13 @@ export default function Reliability() {
           <div className="max-w-sm sm:max-w-none mx-auto mt-10 sm:flex sm:justify-center">
             <div className="space-y-4 sm:mx-auto sm:inline-grid sm:gap-5 sm:space-y-0">
               <AnchorLink
-                to="./#reliability"
+                to="#reliability"
                 title="Reliability"
-                className="font-2xl group flex items-center justify-center rounded-full border border-transparent bg-pink-500 px-4 py-3 font-body text-base font-bold text-slate-50 shadow-xl shadow-red-700/30 transition-colors duration-700 hover:bg-purple-500 hover:text-slate-50 hover:shadow-purple-700/30 sm:px-8"
+                className="font-2xl group flex items-center justify-center rounded-full border border-transparent bg-pink-500 px-4 py-3 font-body text-base font-bold text-white shadow-xl shadow-red-700/30 transition-colors duration-700 hover:bg-purple-500 hover:text-white hover:shadow-purple-700/30 sm:px-8"
               >
                 <span className="mr-1">RELIABILITY</span>
                 <span>
-                  <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-slate-50" />
+                  <ArrowCircleDownIcon className="h-5 w-5 group-hover:animate-bounce group-hover:text-white" />
                 </span>
               </AnchorLink>
             </div>

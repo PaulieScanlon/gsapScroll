@@ -29,7 +29,7 @@ const Seo = ({ title, description, publicURL }) => {
 
   return (
     <>
-      <Helmet title={seo.title} titleTemplate={titleTemplate}>
+      <Helmet title={seo.title} titleTemplate={titleTemplate} htmlAttributes={{ lang: 'en-GB' }}>
         {/* The main title tag - the most important one-page factor for seo. Content
         is the most important factor. */}
         {/* General tags */}

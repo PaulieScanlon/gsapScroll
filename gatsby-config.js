@@ -81,7 +81,7 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         // The property ID; the tracking code won't be generated without it
-        id: "GTM-TCK3QP",
+        id: "GTM-PTGCLGT",
         includeInDevelopment: false,
         defaultDataLayer: { platform: `gatsby` },
       },
