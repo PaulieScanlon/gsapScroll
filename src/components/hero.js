@@ -2,7 +2,7 @@ import * as React from "react"
 
   /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
 
-export default function Hero3() {
+export default function Hero() {
   return (
     <div className="container relative mx-auto px-6 pt-12 pb-24 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
