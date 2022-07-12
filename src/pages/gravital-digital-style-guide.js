@@ -197,8 +197,8 @@ const StyleGuide = () => {
       {/* Color Palette - Slate */}
       <div className="max-w-7xl mx-auto bg-slate-400 py-12 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
-          These are the colors you will use the most and will make up the
-          majority of your UI. Use them for most of your text, backgrounds, and
+          These are the colors are used the most and will make up the majority
+          of your UI. We use them for most of our text, backgrounds, and
           borders, as well as for things like secondary buttons and links.
         </p>
 
@@ -325,10 +325,10 @@ const StyleGuide = () => {
       {/* Color Palette - Primary Amber */}
       <div className="max-w-7xl mx-auto bg-slate-400 py-12 px-4 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
-          These are the splashes of color that should appear the most in your
-          UI, and are the ones that determine the overall "look" of the site.
-          Use these for things like primary actions, links, navigation items,
-          icons, accent borders, or text you want to emphasize.
+          These are the splashes of color that appear the most in our UI, and
+          are the ones that determine the overall "look" of the site. We use
+          these for things like primary actions, links, navigation items, icons,
+          accent borders, or text we want to emphasize.
         </p>
 
         <div className="shrink-0">
@@ -456,10 +456,10 @@ const StyleGuide = () => {
       {/* Color Palette - Primary Sky Blues */}
       <div className="container mx-auto bg-slate-400 py-12 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
-          These are the splashes of color that should appear the most in your
-          UI, and are the ones that determine the overall "look" of the site.
-          Use these for things like primary actions, links, navigation items,
-          icons, accent borders, or text you want to emphasize.
+          These are the splashes of color that appear the most in our UI, and
+          are the ones that determine the overall "look" of the site. We use
+          these for things like primary actions, links, navigation items, icons,
+          accent borders, or text we want to emphasize.
         </p>
 
         <div className="w-16 shrink-0">
@@ -586,10 +586,10 @@ const StyleGuide = () => {
       {/* Color Palette - Supporting Reds */}
       <div className="container mx-auto bg-slate-400 py-12 px-4 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
-          These colors should be used fairly conservatively throughout your UI
-          to avoid overpowering your primary colors. Use them when you need an
-          element to stand out, or to reinforce things like error states or
-          positive trends with the appropriate semantic color.
+          These colors are used fairly conservatively throughout our UI to avoid
+          overpowering our primary colors. We use them when we need an element
+          to stand out, or to reinforce things like error states or positive
+          trends with the appropriate semantic color.
         </p>
         <div className="shrink-0">
           <div className="flex h-10 flex-col justify-center">
@@ -713,10 +713,10 @@ const StyleGuide = () => {
       {/* Color Palette - Supporting Purples */}
       <div className="max-w-7xl mx-auto bg-slate-400 py-12 px-4 sm:px-6 lg:px-8">
         <p className="mx-24 text-center font-serif text-2xl">
-          These colors should be used fairly conservatively throughout your UI
-          to avoid overpowering your primary colors. Use them when you need an
-          element to stand out, or to reinforce things like error states or
-          positive trends with the appropriate semantic color.
+          These colors are used fairly conservatively throughout our UI to avoid
+          overpowering our primary colors. We use them when we need an element
+          to stand out, or to reinforce things like error states or positive
+          trends with the appropriate semantic color.
         </p>
 
         <div className="shrink-0">
