@@ -61,8 +61,8 @@ export default function Contentanywhere() {
               <div className="grid grid-cols-1">
                 <img
                   className="h-950 inline h-max"
-                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656985313/content-logos-white-331x670_rlxblz.png"
-                  alt="CMS logos with Jamstack"
+                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1657641000/content-logos-white-331x670_qkcnxt.png"
+                  alt="Content services logos with Jamstack"
                 />
               </div>
             </div>

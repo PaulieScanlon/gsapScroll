@@ -83,7 +83,7 @@ export default function Zerocosts() {
                 </div>
                 <img
                   className="h-950 inline"
-                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1656980493/stack-comparison_wla4zz.png"
+                  src="https://res.cloudinary.com/gravital-digital/image/upload/v1657641551/stack-comparison-new-946x472_xw4nuk.png"
                   alt="Legacy hosting vs. Jamstack"
                 />
                 <p className="sm:text-regular mx-auto mt-2 mb-5 font-body text-sm text-slate-50">
