@@ -32,7 +32,7 @@ export default function Speed() {
     <div className="z-index-0 xlg:my-16 container relative mx-auto my-6 px-6 sm:my-10 sm:px-12 lg:my-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
         <div className="relative px-4 py-2 sm:px-6 sm:py-4 lg:py-6 lg:px-8">
-          <h1 className="md:pt-18 pt-6 text-center sm:pt-12 lg:pt-24 xl:pt-36 2xl:pt-48">
+          <h1 className="md:pt-18 pt-6 text-center">
             <span className="pb-2 text-5xl font-bold tracking-tight text-slate-50 sm:pb-4 sm:text-6xl lg:text-7xl xl:text-8xl">
               Speed.
             </span>

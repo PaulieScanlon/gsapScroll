@@ -5,29 +5,28 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
 
 const Hero = () => {
+  const { heroImage } = useStaticQuery(
+    graphql`
+      query {
+        heroImage: file(relativePath: { eq: "hero.jpg" }) {
+          childImageSharp {
+            gatsbyImageData(
+              quality: 50
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 1152
+              breakpoints: [640, 768, 1024, 1280, 1536]
+            )
+          }
+        }
+      }
+    `
+  )
 
- const { heroImage } = useStaticQuery(
-   graphql`
-     query {
-       heroImage: file(relativePath: { eq: "hero.jpg" }) {
-         childImageSharp {
-           gatsbyImageData(
-             quality: 50
-             placeholder: BLURRED
-             formats: [AUTO, WEBP, AVIF]
-             width: 1152
-             breakpoints: [640, 768, 1024, 1280, 1536]
-           )
-         }
-       }
-     }
-   `
- )
-
-const pluginImage = getImage(heroImage)
+  const pluginImage = getImage(heroImage)
 
   return (
-    <div className="container relative mx-auto px-6 pt-12 pb-24 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
+    <div className="container relative mx-auto px-6 pt-12 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
         <div className="absolute inset-0">
           <GatsbyImage
@@ -107,5 +106,3 @@ const pluginImage = getImage(heroImage)
 }
 
 export default Hero
-
-
