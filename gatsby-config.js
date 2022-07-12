@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`, // See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/
       options: {
-        name: `Gravital Digital Branding`,
+        name: `Gravital Digital Website Developers`,
         short_name: `Gravital`,
         start_url: `/`,
         background_color: `#CA8A04`,

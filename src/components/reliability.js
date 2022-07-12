@@ -1,10 +1,35 @@
 import * as React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { ArrowCircleDownIcon } from "@heroicons/react/solid"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
   /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
 
 export default function Reliability() {
+
+ const { reliabilityImage } = useStaticQuery(
+   graphql`
+     query {
+       reliabilityImage: file(
+         relativePath: { eq: "flexibility-final-240.jpg" }
+       ) {
+         childImageSharp {
+           gatsbyImageData(
+             quality: 50
+             placeholder: BLURRED
+             formats: [AUTO, WEBP, AVIF]
+             width: 600
+             breakpoints: [640, 768, 1024, 1280, 1536]
+           )
+         }
+       }
+     }
+   `
+ )
+
+ const pluginImage = getImage(reliabilityImage)
+
   return (
     <div className="z-index-0 xlg:my-16 container relative mx-auto my-6 px-6 sm:my-10 sm:px-12 lg:my-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
@@ -21,9 +46,9 @@ export default function Reliability() {
               <div class="animate-tilt group-hover:duration-50 absolute -inset-4 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 opacity-75 blur transition duration-1000 group-hover:opacity-100"></div>
               <div class="relative flex items-center divide-x divide-gray-600 rounded-lg bg-black leading-none">
                 <span class="flex items-center space-x-5">
-                  <img
-                    className="h-260 mx-auto"
-                    src="https://res.cloudinary.com/gravital-digital/image/upload/v1656296903/reliability-final-240_ayaojl.jpg"
+                  <GatsbyImage
+                    image={pluginImage}
+                    className="h-240 mx-auto"
                     alt="Reliability"
                   />
                 </span>

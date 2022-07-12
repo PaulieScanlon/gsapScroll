@@ -1,16 +1,39 @@
 import * as React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-  /* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
+/* Based on https://tailwindui.com/components/marketing/sections/heroes the 7th component from the top. */
 
-export default function Hero() {
+const Hero = () => {
+
+ const { heroImage } = useStaticQuery(
+   graphql`
+     query {
+       heroImage: file(relativePath: { eq: "hero.jpg" }) {
+         childImageSharp {
+           gatsbyImageData(
+             quality: 50
+             placeholder: BLURRED
+             formats: [AUTO, WEBP, AVIF]
+             width: 1152
+             breakpoints: [640, 768, 1024, 1280, 1536]
+           )
+         }
+       }
+     }
+   `
+ )
+
+const pluginImage = getImage(heroImage)
+
   return (
     <div className="container relative mx-auto px-6 pt-12 pb-24 sm:px-12 lg:px-24 xl:px-36 2xl:px-48">
       <div className="relative sm:overflow-hidden">
         <div className="absolute inset-0">
-          <img
+          <GatsbyImage
+            image={pluginImage}
             className="h-598 w-full object-cover"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657075321/hero_macbook_apple_large_final_nyuhwd.jpg"
-            alt="Blazing Speed coming from a Macbook Pro"
+            alt="Blazing Fast Website"
           />
         </div>
         <div className="relative px-4 pt-40 sm:px-6 sm:pt-36 lg:px-8 lg:pt-48">
@@ -82,3 +105,7 @@ export default function Hero() {
     </div>
   )
 }
+
+export default Hero
+
+

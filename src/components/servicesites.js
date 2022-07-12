@@ -1,4 +1,6 @@
 import * as React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { LinkIcon } from "@heroicons/react/outline"
 
 const supportLinks = [
@@ -21,6 +23,26 @@ const supportLinks = [
 
 /* This example requires Tailwind CSS v2.0+ */
 export default function Servicesites() {
+  const { serviceImage } = useStaticQuery(
+    graphql`
+      query {
+        serviceImage: file(relativePath: { eq: "vizient-top.jpg" }) {
+          childImageSharp {
+            gatsbyImageData(
+              quality: 50
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 1472
+              breakpoints: [640, 768, 1024, 1280, 1536]
+            )
+          }
+        }
+      }
+    `
+  )
+
+  const pluginImage = getImage(serviceImage)
+
   return (
     <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
       <div className="max-w-md sm:max-w-3xl lg:max-w-7xl mx-auto px-4 pt-6 text-center sm:px-6 lg:px-8">
@@ -38,10 +60,10 @@ export default function Servicesites() {
           </p>
         </div>
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-12">
-          <img
+          <GatsbyImage
+            image={pluginImage}
             className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657376017/vizient-top_dzaxxz.jpg"
-            alt="Vizient"
+            alt="Vizient Homepage"
           />
         </div>
       </div>

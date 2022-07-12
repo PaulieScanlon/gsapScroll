@@ -1,4 +1,6 @@
 import * as React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import {
   LinkIcon,
 } from "@heroicons/react/outline"
@@ -23,6 +25,29 @@ const supportLinks = [
 
 /* This example requires Tailwind CSS v2.0+ */
 export default function Ecommsites() {
+
+ const { ecommImage } = useStaticQuery(
+   graphql`
+     query {
+       ecommImage: file(
+         relativePath: { eq: "uag-top.jpg" }
+       ) {
+         childImageSharp {
+           gatsbyImageData(
+             quality: 50
+             placeholder: BLURRED
+             formats: [AUTO, WEBP, AVIF]
+             width: 1472
+             breakpoints: [640, 768, 1024, 1280, 1536]
+           )
+         }
+       }
+     }
+   `
+ )
+
+ const pluginImage = getImage(ecommImage)
+
   return (
     <div
       className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900"
@@ -43,9 +68,9 @@ export default function Ecommsites() {
           </p>
         </div>
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-12">
-          <img
+          <GatsbyImage
+            image={pluginImage}
             className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657375237/uag-top_jzfss2.jpg"
             alt="UAB by https://www.vincit.com/"
           />
         </div>
@@ -54,9 +79,7 @@ export default function Ecommsites() {
         className="max-w-7xl relative z-10 mx-auto -mt-8 px-4 pb-8 sm:-mt-12 sm:px-6 lg:-mt-16 lg:px-8"
         aria-labelledby="contact-heading"
       >
-        <ul
-          className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
-        >
+        <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
           {supportLinks.map(link => (
             <li key={link.name}>
               <div className="rounded-br-2x l group grid grid-cols-1 gap-y-4 space-y-4 rounded-bl-2xl bg-slate-500 p-4 transition-colors duration-500 hover:bg-slate-400 md:px-8">

@@ -1,4 +1,6 @@
 import * as React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { LinkIcon } from "@heroicons/react/outline"
 
 const supportLinks = [
@@ -21,10 +23,29 @@ const supportLinks = [
 
 /* This example requires Tailwind CSS v2.0+ */
 export default function Contentsites() {
+
+ const { contentImage } = useStaticQuery(
+   graphql`
+     query {
+       contentImage: file(relativePath: { eq: "patreon-blog-top.jpg" }) {
+         childImageSharp {
+           gatsbyImageData(
+             quality: 50
+             placeholder: BLURRED
+             formats: [AUTO, WEBP, AVIF]
+             width: 1472
+             breakpoints: [640, 768, 1024, 1280, 1536]
+           )
+         }
+       }
+     }
+   `
+ )
+
+ const pluginImage = getImage(contentImage)
+
   return (
-    <div
-      className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900"
-    >
+    <div className="max-w-xl container mx-auto my-24 rounded-3xl bg-slate-900">
       <div className="max-w-md sm:max-w-3xl lg:max-w-7xl mx-auto px-4 pt-6 text-center sm:px-6 lg:px-8">
         <div>
           <h2 className="my-6 bg-gradient-to-br from-purple-500 to-red-500 bg-clip-text font-logo font-bold uppercase tracking-wider text-transparent">
@@ -40,9 +61,9 @@ export default function Contentsites() {
           </p>
         </div>
         <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-12">
-          <img
+          <GatsbyImage
+            image={pluginImage}
             className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-            src="https://res.cloudinary.com/gravital-digital/image/upload/v1657367730/patreon-blog-top_nvfm60.jpg"
             alt="Patreon Blog Homepage"
           />
         </div>
